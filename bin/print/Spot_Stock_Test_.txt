@@ -1,0 +1,57 @@
+No|Product|Weight|Van C|Van P|Stock C|Stock P|Total P|Buying Price|Amount|Selling Price|Amount|
+2|Goold Marie - 02/24/2013|.08|
+3|Chocolate Cream - 08/14/2013|.1|
+4|Cream Cracker - 02/24/2013|.125|
+5|Cream Cracker - 02/24/2013|.19|
+6|Cream Cracker - 06/29/2013|.33|
+7|Cream Cracker - 02/24/2013|.5|
+8|Lemon puff - 06/29/2013|.1|
+9|Lemon Puff - 05/13/2013|.2|
+10|Sorties - 02/24/2013|.065|
+11|Njce - 07/03/2013|.1|
+12|Hawaiian Cookies - 06/29/2013|.1|
+13|Hawaiian Cookies - 06/29/2013|.2|
+14|Bran Cracker - 06/29/2013|.14|
+15|Bran Cracker - 06/29/2013|.21|
+16|Cheese Bits - 05/13/2013|.08|
+17|Cheese Bits - 05/13/2013|.17|
+18|Cheese Bits - 05/13/2013|.245|
+19|Cheesebits - 04/19/2013|.025|
+20|Krisco - 07/03/2013|.17|
+21|Krisco - 05/13/2013|.215|
+22|Chocolate Cream - 02/24/2013|.5|
+23|Custard Cream - 02/24/2013|.1|
+24|Orange Cream - 03/31/2013|.1|
+25|Chickbits - 06/29/2013|.08|
+26|Chickbit - 05/13/2013|.03|
+27|Gingernut - 06/29/2013|.08|
+28|Gingernut - 06/29/2013|.24|
+29|Millk Short Cake - 06/29/2013|.08|
+30|Snackers-Cheese & Chille - 06/29/2013|.04|
+31|Snackers- Masala - 06/29/2013|.04|
+32|Snackers- Spicy - 07/03/2013|.04|
+33|Custard Cream - 07/03/2013|.5|
+34|Orenge Cream - 07/03/2013|.5|
+35|Nice - 07/03/2013|.38|
+36|Sorties - 07/03/2013|.325|
+37|Gift Selection - 04/02/2013|.4|
+38|Kisco Bite - 07/03/2013|.03|
+39|Light Marie - 02/24/2013|.07|
+40|Light Marie - 02/24/2013|.28|
+41|Classic Bis Asst - 05/13/2013|.5|
+42|Goold Marie - 07/03/2013|.32|
+43|Gem - 07/03/2013|.1|
+44|Nice 2kg - 07/03/2013|2|
+45|Wafers-chocolate - 07/31/2013|.1|
+46|Wafers-vanila - 07/31/2013|.1|
+47|Spicy Cracker - 03/30/2013|.075|
+48|Spicy Cracker - 03/30/2013|.15|
+49|Chocolate Cream Marie - 02/24/2013|.065|
+50|Waferes Chocolat - 11/11/2013|.25|
+51|Wefers vanila - 11/11/2013|.25|
+52|Chocolate Cream - 12/26/2013|.25|
+53|Chocolate Puff - 12/26/2013|.1|
+54|Tea Time Assortment - 12/25/2013|.2|
+55|Double Cream - Strawbery - 12/26/2013|.11|
+56|Double Cream- Chocolate - 12/26/2013|.11|
+|Total|
