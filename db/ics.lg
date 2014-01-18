@@ -200,3 +200,35 @@
 [2014/01/15@13:02:16.584+2300] P-2700       T-3056  I ABL      : (15109) At Database close the number of live transactions is 0. 
 [2014/01/15@13:02:16.584+2300] P-2700       T-3056  I ABL      : (15743) Before Image Log Completion at Block 243 Offset 5461. 
 [2014/01/15@13:02:16.600+2300] P-2700       T-3056  I ABL      : (334)   Single-user session end. 
+
+                Thu Jan 16 22:05:07 2014
+[2014/01/16@22:05:07.028+2300] P-5584       T-5588  I ABL      : (451)   Single-user session begin for Az on CON:. 
+[2014/01/16@22:05:07.153+2300] P-5584       T-5588  I ABL      : (15321) Before Image Log Initialization at block 243  offset 5461. 
+[2014/01/16@22:05:07.513+2300] P-5584       T-5588  I ABL      : (12699) Database ics Options:  
+[2014/01/16@22:06:48.413+2300] P-5584       T-5588  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/01/16@22:06:48.413+2300] P-5584       T-5588  I ABL      : (15743) Before Image Log Completion at Block 243 Offset 5461. 
+[2014/01/16@22:06:48.429+2300] P-5584       T-5588  I ABL      : (334)   Single-user session end. 
+
+                Sat Jan 18 12:39:26 2014
+[2014/01/18@12:39:26.943+2300] P-5616       T-4664  I ABL      : (451)   Single-user session begin for Az on CON:. 
+[2014/01/18@12:39:26.956+2300] P-5616       T-4664  I ABL      : (15321) Before Image Log Initialization at block 243  offset 5461. 
+[2014/01/18@12:39:26.966+2300] P-5616       T-4664  I ABL      : (12699) Database ics Options:  
+[2014/01/18@12:39:55.293+2300] P-5616       T-4664  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/01/18@12:39:55.293+2300] P-5616       T-4664  I ABL      : (15743) Before Image Log Completion at Block 245 Offset 5347. 
+[2014/01/18@12:39:55.299+2300] P-5616       T-4664  I ABL      : (334)   Single-user session end. 
+
+                Sat Jan 18 12:40:02 2014
+[2014/01/18@12:40:02.976+2300] P-3616       T-4240  I ABL      : (451)   Single-user session begin for Az on CON:. 
+[2014/01/18@12:40:02.976+2300] P-3616       T-4240  I ABL      : (15321) Before Image Log Initialization at block 245  offset 5347. 
+[2014/01/18@12:40:02.980+2300] P-3616       T-4240  I ABL      : (12699) Database ics Options:  
+[2014/01/18@12:40:22.362+2300] P-3616       T-4240  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/01/18@12:40:22.362+2300] P-3616       T-4240  I ABL      : (15743) Before Image Log Completion at Block 245 Offset 5347. 
+[2014/01/18@12:40:22.366+2300] P-3616       T-4240  I ABL      : (334)   Single-user session end. 
+
+                Sat Jan 18 12:41:22 2014
+[2014/01/18@12:41:22.294+2300] P-4260       T-5048  I ABL      : (451)   Single-user session begin for Az on CON:. 
+[2014/01/18@12:41:22.295+2300] P-4260       T-5048  I ABL      : (15321) Before Image Log Initialization at block 245  offset 5347. 
+[2014/01/18@12:41:22.299+2300] P-4260       T-5048  I ABL      : (12699) Database ics Options:  
+[2014/01/18@12:42:09.803+2300] P-4260       T-5048  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/01/18@12:42:09.804+2300] P-4260       T-5048  I ABL      : (15743) Before Image Log Completion at Block 245 Offset 5347. 
+[2014/01/18@12:42:09.808+2300] P-4260       T-5048  I ABL      : (334)   Single-user session end. 
