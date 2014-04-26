@@ -536,3 +536,43 @@
 [2014/04/26@11:46:18.661+2300] P-3336       T-3660  I ABL      : (15109) At Database close the number of live transactions is 0. 
 [2014/04/26@11:46:18.661+2300] P-3336       T-3660  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 2857. 
 [2014/04/26@11:46:18.661+2300] P-3336       T-3660  I ABL      : (334)   Single-user session end. 
+
+                Sat Apr 26 11:50:27 2014
+[2014/04/26@11:50:27.897+2300] P-4540       T-4536  I ABL      : (451)   Single-user session begin for Duminda on CON:. 
+[2014/04/26@11:50:27.897+2300] P-4540       T-4536  I ABL      : (15321) Before Image Log Initialization at block 4  offset 2857. 
+[2014/04/26@11:50:27.913+2300] P-4540       T-4536  I ABL      : (12699) Database ics Options:  
+[2014/04/26@11:51:30.512+2300] P-4540       T-4536  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/26@11:51:30.512+2300] P-4540       T-4536  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 2857. 
+[2014/04/26@11:51:30.512+2300] P-4540       T-4536  I ABL      : (334)   Single-user session end. 
+
+                Sat Apr 26 12:05:06 2014
+[2014/04/26@12:05:06.838+2300] P-5952       T-3428  I ABL      : (451)   Single-user session begin for Duminda on CON:. 
+[2014/04/26@12:05:06.838+2300] P-5952       T-3428  I ABL      : (15321) Before Image Log Initialization at block 4  offset 2857. 
+[2014/04/26@12:05:06.854+2300] P-5952       T-3428  I ABL      : (12699) Database ics Options:  
+[2014/04/26@12:06:13.114+2300] P-5952       T-3428  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/26@12:06:13.114+2300] P-5952       T-3428  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 2857. 
+[2014/04/26@12:06:13.114+2300] P-5952       T-3428  I ABL      : (334)   Single-user session end. 
+
+                Sat Apr 26 12:08:45 2014
+[2014/04/26@12:08:45.108+2300] P-4740       T-5344  I ABL      : (451)   Single-user session begin for Duminda on CON:. 
+[2014/04/26@12:08:45.108+2300] P-4740       T-5344  I ABL      : (15321) Before Image Log Initialization at block 4  offset 2857. 
+[2014/04/26@12:08:45.124+2300] P-4740       T-5344  I ABL      : (12699) Database ics Options:  
+[2014/04/26@12:17:51.161+2300] P-4740       T-5344  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/26@12:17:51.161+2300] P-4740       T-5344  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 3319. 
+[2014/04/26@12:17:51.161+2300] P-4740       T-5344  I ABL      : (334)   Single-user session end. 
+
+                Sat Apr 26 12:18:49 2014
+[2014/04/26@12:18:49.882+2300] P-5220       T-4820  I ABL      : (451)   Single-user session begin for Duminda on CON:. 
+[2014/04/26@12:18:49.882+2300] P-5220       T-4820  I ABL      : (15321) Before Image Log Initialization at block 4  offset 3319. 
+[2014/04/26@12:18:49.882+2300] P-5220       T-4820  I ABL      : (12699) Database ics Options:  
+[2014/04/26@12:32:51.158+2300] P-5220       T-4820  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/26@12:32:51.158+2300] P-5220       T-4820  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 3379. 
+[2014/04/26@12:32:51.173+2300] P-5220       T-4820  I ABL      : (334)   Single-user session end. 
+
+                Sat Apr 26 12:41:09 2014
+[2014/04/26@12:41:09.397+2300] P-4648       T-2692  I ABL      : (451)   Single-user session begin for Duminda on CON:. 
+[2014/04/26@12:41:09.397+2300] P-4648       T-2692  I ABL      : (15321) Before Image Log Initialization at block 4  offset 3379. 
+[2014/04/26@12:41:09.413+2300] P-4648       T-2692  I ABL      : (12699) Database ics Options:  
+[2014/04/26@12:43:52.365+2300] P-4648       T-2692  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/26@12:43:52.365+2300] P-4648       T-2692  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 3379. 
+[2014/04/26@12:43:52.365+2300] P-4648       T-2692  I ABL      : (334)   Single-user session end. 
