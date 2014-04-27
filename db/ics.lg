@@ -640,3 +640,43 @@
 [2014/04/27@11:12:34.687+2300] P-2320       T-2036  I ABL      : (15109) At Database close the number of live transactions is 0. 
 [2014/04/27@11:12:34.687+2300] P-2320       T-2036  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 5988. 
 [2014/04/27@11:12:34.687+2300] P-2320       T-2036  I ABL      : (334)   Single-user session end. 
+
+                Sun Apr 27 11:24:33 2014
+[2014/04/27@11:24:33.546+2300] P-2956       T-2960  I ABL      : (451)   Single-user session begin for Maliban on CON:. 
+[2014/04/27@11:24:33.640+2300] P-2956       T-2960  I ABL      : (15321) Before Image Log Initialization at block 4  offset 5988. 
+[2014/04/27@11:24:34.093+2300] P-2956       T-2960  I ABL      : (12699) Database ics Options:  
+[2014/04/27@11:26:37.671+2300] P-2956       T-2960  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/27@11:26:37.687+2300] P-2956       T-2960  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 6644. 
+[2014/04/27@11:26:37.687+2300] P-2956       T-2960  I ABL      : (334)   Single-user session end. 
+
+                Sun Apr 27 11:26:44 2014
+[2014/04/27@11:26:44.390+2300] P-3228       T-3232  I ABL      : (451)   Single-user session begin for Maliban on CON:. 
+[2014/04/27@11:26:44.406+2300] P-3228       T-3232  I ABL      : (15321) Before Image Log Initialization at block 4  offset 6644. 
+[2014/04/27@11:26:44.406+2300] P-3228       T-3232  I ABL      : (12699) Database ics Options:  
+[2014/04/27@11:28:27.109+2300] P-3228       T-3232  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/27@11:28:27.109+2300] P-3228       T-3232  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 6704. 
+[2014/04/27@11:28:27.109+2300] P-3228       T-3232  I ABL      : (334)   Single-user session end. 
+
+                Sun Apr 27 11:28:31 2014
+[2014/04/27@11:28:31.375+2300] P-3328       T-3332  I ABL      : (451)   Single-user session begin for Maliban on CON:. 
+[2014/04/27@11:28:31.375+2300] P-3328       T-3332  I ABL      : (15321) Before Image Log Initialization at block 4  offset 6704. 
+[2014/04/27@11:28:31.390+2300] P-3328       T-3332  I ABL      : (12699) Database ics Options:  
+[2014/04/27@11:30:06.437+2300] P-3328       T-3332  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/27@11:30:06.437+2300] P-3328       T-3332  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 6764. 
+[2014/04/27@11:30:06.437+2300] P-3328       T-3332  I ABL      : (334)   Single-user session end. 
+
+                Sun Apr 27 11:30:10 2014
+[2014/04/27@11:30:10.218+2300] P-3584       T-3588  I ABL      : (451)   Single-user session begin for Maliban on CON:. 
+[2014/04/27@11:30:10.218+2300] P-3584       T-3588  I ABL      : (15321) Before Image Log Initialization at block 4  offset 6764. 
+[2014/04/27@11:30:10.218+2300] P-3584       T-3588  I ABL      : (12699) Database ics Options:  
+[2014/04/27@11:30:39.859+2300] P-3584       T-3588  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/27@11:30:39.859+2300] P-3584       T-3588  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 6764. 
+[2014/04/27@11:30:39.859+2300] P-3584       T-3588  I ABL      : (334)   Single-user session end. 
+
+                Sun Apr 27 16:12:29 2014
+[2014/04/27@16:12:29.781+2300] P-2292       T-2348  I ABL      : (451)   Single-user session begin for Maliban on CON:. 
+[2014/04/27@16:12:29.984+2300] P-2292       T-2348  I ABL      : (15321) Before Image Log Initialization at block 4  offset 6764. 
+[2014/04/27@16:12:32.328+2300] P-2292       T-2348  I ABL      : (12699) Database ics Options:  
+[2014/04/27@17:03:06.140+2300] P-2292       T-2348  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/27@17:03:06.156+2300] P-2292       T-2348  I ABL      : (15743) Before Image Log Completion at Block 7 Offset 7620. 
+[2014/04/27@17:03:06.156+2300] P-2292       T-2348  I ABL      : (334)   Single-user session end. 
