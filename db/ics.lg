@@ -624,3 +624,11 @@
 [2014/04/27@10:55:03.484+2300] P-4068       T-4072  I ABL      : (15109) At Database close the number of live transactions is 0. 
 [2014/04/27@10:55:03.500+2300] P-4068       T-4072  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 3439. 
 [2014/04/27@10:55:03.500+2300] P-4068       T-4072  I ABL      : (334)   Single-user session end. 
+
+                Sun Apr 27 11:00:05 2014
+[2014/04/27@11:00:05.580+2300] P-3464       T-4440  I ABL      : (451)   Single-user session begin for Duminda on CON:. 
+[2014/04/27@11:00:05.581+2300] P-3464       T-4440  I ABL      : (15321) Before Image Log Initialization at block 4  offset 3439. 
+[2014/04/27@11:00:05.592+2300] P-3464       T-4440  I ABL      : (12699) Database ics Options:  
+[2014/04/27@11:01:38.013+2300] P-3464       T-4440  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2014/04/27@11:01:38.014+2300] P-3464       T-4440  I ABL      : (15743) Before Image Log Completion at Block 4 Offset 4679. 
+[2014/04/27@11:01:38.015+2300] P-3464       T-4440  I ABL      : (334)   Single-user session end. 
