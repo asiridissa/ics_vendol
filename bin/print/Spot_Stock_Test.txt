@@ -1,57 +1,24 @@
 No|Product|Weight|Van C|Van P|Stock C|Stock P|Total P|Buying Price|Amount|Selling Price|Amount|
-62|Cheesebits - 04/19/2013|.025|0|0|13|0|780|20.7|16146|22.5|17550|
-61|Gift Selection - 04/02/2013|.4|0|0|7|0|70|182.16|12751.2|198|13860|
-142|Cream Cracker - 06/29/2013|.33|0|0|29|0|232|115.92|26893.44|126|29232|
-143|Lemon puff - 06/29/2013|.1|0|0|28|0|840|45.54|38253.6|49.5|41580|
-144|Hawaiian Cookies - 06/29/2013|.1|0|0|10|0|300|41.4|12420|45|13500|
-145|Hawaiian Cookies - 06/29/2013|.2|0|0|4|10|106|78.66|8337.96|85.5|9063|
-146|Bran Cracker - 06/29/2013|.14|0|0|12|0|480|66.24|31795.2|72|34560|
-147|Bran Cracker - 06/29/2013|.21|0|0|11|0|264|82.8|21859.2|90|23760|
-149|Chickbits - 06/29/2013|.08|0|0|8|0|320|57.96|18547.2|63|20160|
-150|Gingernut - 06/29/2013|.08|0|0|6|0|300|36.43|10929|39.6|11880|
-151|Gingernut - 06/29/2013|.24|0|0|2|0|48|96.97|4654.56|105.4|5059.2|
-152|Millk Short Cake - 06/29/2013|.08|0|0|8|0|400|36.23|14492|39.38|15752|
-153|Snackers-Cheese & Chille - 06/29/2013|.04|0|0|10|0|400|24.84|9936|27|10800|
-154|Snackers- Masala - 06/29/2013|.04|0|0|10|0|400|24.84|9936|27|10800|
-155|Njce - 07/03/2013|.1|0|0|15|0|750|36.43|27322.5|39.6|29700|
-156|Krisco - 07/03/2013|.17|0|0|10|0|150|115.92|17388|126|18900|
-157|Snackers- Spicy - 07/03/2013|.04|0|0|7|0|280|24.84|6955.2|27|7560|
-158|Custard Cream - 07/03/2013|.5|0|0|33|0|132|159.16|21009.12|173|22836|
-159|Orenge Cream - 07/03/2013|.5|0|0|41|0|164|159.16|26102.24|173|28372|
-160|Nice - 07/03/2013|.38|0|0|86|0|344|137.63|47344.72|149.6|51462.4|
-161|Sorties - 07/03/2013|.325|0|0|137|0|548|99.36|54449.28|108|59184|
-162|Kisco Bite - 07/03/2013|.03|0|0|9|0|540|20.7|11178|22.5|12150|
-163|Goold Marie - 07/03/2013|.32|0|0|43|0|172|108.68|18692.96|118.13|20318.36|
-164|Gem - 07/03/2013|.1|0|0|0|45|45|32.38|1457.1|35.2|1584|
-165|Nice 2kg - 07/03/2013|2|0|0|4|0|4|671.97|2687.88|730.4|2921.6|
-44|Chocolate Cream - 02/24/2013|.5|0|0|108|0|432|159.16|68757.12|173|74736|
-45|Custard Cream - 02/24/2013|.1|0|0|10|0|500|35.82|17910|38.93|19465|
-64|Light Marie - 02/24/2013|.07|0|0|9|0|540|20.7|11178|22.5|12150|
-65|Light Marie - 02/24/2013|.28|0|0|28|0|168|82.8|13910.4|90|15120|
-74|Chocolate Cream Marie - 02/24/2013|.065|0|0|34|0|748|28.34|21198.32|31.5|23562|
-110|Spicy Cracker - 03/30/2013|.15|0|0|11|11|341|74.52|25411.32|81|27621|
-111|Spicy Cracker - 03/30/2013|.075|0|0|16|0|480|41.4|19872|45|21600|
-46|Orange Cream - 03/31/2013|.1|0|0|13|0|650|35.82|23283|38.93|25304.5|
-21|Goold Marie - 02/24/2013|.08|0|0|96|0|5760|24.15|139104|26.25|151200|
-23|Cream Cracker - 02/24/2013|.125|0|0|49|0|2352|41.4|97372.8|45|105840|
-24|Cream Cracker - 02/24/2013|.19|0|0|54|0|2160|62.1|134136|67.5|145800|
-26|Cream Cracker - 02/24/2013|.5|0|0|185|5|1485|142.49|211597.65|154.88|229996.8|
-33|Sorties - 02/24/2013|.065|0|0|16|0|960|20.7|19872|22.5|21600|
-127|Classic Bis Asst - 05/13/2013|.5|0|0|4|0|40|372.6|14904|405|16200|
-129|Cheese Bits - 05/13/2013|.245|0|0|2|0|20|223.56|4471.2|243|4860|
-130|Krisco - 05/13/2013|.215|0|0|6|0|60|215.28|12916.8|234|14040|
-131|Lemon Puff - 05/13/2013|.2|0|0|32|0|960|81.9|78624|90|86400|
-132|Chickbit - 05/13/2013|.03|0|0|14|0|840|20.48|17203.2|22.5|18900|
-134|Cheese Bits - 05/13/2013|.08|0|0|6|0|150|57.33|8599.5|63|9450|
-135|Cheese Bits - 05/13/2013|.17|0|0|3|0|45|118.76|5344.2|130.5|5872.5|
-169|Wafers-chocolate - 07/31/2013|.1|0|0|36|0|720|40.25|28980|43.75|31500|
-170|Wafers-vanila - 07/31/2013|.1|0|0|40|0|800|40.25|32200|43.75|35000|
-171|Chocolate Cream - 08/14/2013|.1|0|0|124|0|6200|39.79|246698|43.25|268150|
-176|Waferes Chocolat - 11/11/2013|.25|0|0|34|0|272|88.55|24085.6|96.25|26180|
-177|Wefers vanila - 11/11/2013|.25|0|0|11|2|90|88.55|7969.5|96.25|8662.5|
-178|Tea Time Assortment - 12/25/2013|.2|0|0|2|0|30|99.36|2980.8|108|3240|
-179|Chocolate Cream - 12/26/2013|.25|0|0|11|2|68|95.5|6494|103.8|7058.4|
-180|Double Cream - Strawbery - 12/26/2013|.11|0|0|9|29|479|45.54|21813.66|49.5|23710.5|
-181|Double Cream- Chocolate - 12/26/2013|.11|0|0|8|36|436|45.54|19855.44|49.5|21582|
-182|Chocolate Puff - 12/26/2013|.1|0|0|0|3|3|41.4|124.2|45|135|
-|Total||0|0|1514|143|35858||1808405||1967482|
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+** FIND FIRST/LAST failed for table lorryStock. (565)
+|Total||0|0|0|0|0||0||0|

@@ -1,31 +1,43 @@
-NO|Bill No|Customer|Tol Sale|Expiries|Damages|Discount|Cash|Cheques|Credits|GR|F/Issu
-1|9054|Sky world B/S - Milidduwa Magalle|4715.79|||||||||
-2|9055|Hiru Commiunication - Milidduwa Magalle|1565.25|||||||||
-3|9057|Rahamath Trades - Milidduwa Magalle|4353.17|||||||||
-4|9058|Faroshan Grocery - Milidduwa Magalle|2277.5|||||||||
-5|9059|Bajaj Houes - Milidduwa Magalle|414|||||||||
-6|9060|Nimal st - Milidduwa Magalle|1985.1|||||||||
-7|9061|Supun comminication - Milidduwa Magalle|315|||||||||
-8|9062|K.K. st - Kuruduwatta Kottawa|889.5|||||||||
-9|9063|Waruna Celluler - Milidduwa Magalle|2022|||||||||
-10|9064|Sampath St - Milidduwa Magalle|2450.64|||||||||
-11|9065|Himasha B/s - Milidduwa Magalle|3501|||||||||
-12|9066|Jaya st - Milidduwa Magalle|9384.08|||4||||||
-13|9067|Ranjith st - Milidduwa Magalle|2933.27|||||||||
-14|9069|S. K. Tr - Milidduwa Magalle|3100|||||||||
-15|9070|S K D St - Milidduwa Magalle|2648.29|||||||||
-16|9071|Chaminda Pharmacy - Milidduwa Magalle|435.75|||||||||
-17|9072|Samith cafe - Milidduwa Magalle|337.5|||||||||
-18|9073|Higland Milk Bar - Milidduwa Magalle|1825.3|||||||||
-19|9074|Samarawickrama st - Kuruduwatta  Bataduwa|1581.62|||||||||
-20|9075|L B U St - Milidduwa Magalle|1908|||||||||
-21|9076|Lu Lu Pharmacy - Milidduwa Magalle|730.64|||||||||
-22|9077|Abewickrama fc Hiribura - Kithulampitiya Karapitiya|153650.04|||10||||||
-23|9078|Dammi st - Milidduwa Magalle|1951.5|||||||||
-24|9078|Dammi st - Milidduwa Magalle|0||||||||23|
-25|9079|Ruhunu Farm Shop - Milidduwa Magalle|19017.47|||4||||||
-26|9080|Nishantha fruit shop - Milidduwa Magalle|5200|||4||||||
-27|9081|S A N Food City - Kuruduwatta  Bataduwa|19838.6|26||4||||||
-28|9082|No Name - Other Custermer|270|||||||||
-||Total|249301.01|26|0|19343.85|0|0|0|0|23
-||Value|268644.86|| vehical :|41-5786 Kara|| Date : 11/14/2013
+||Month : 12 - 2014|||Vehical : BATTA Saw||||By user : admin
+NO|Bill No|Customer|Tol Sale|Expiries|Damages|Discount|GR|F/Issu|Cash|Cheques|Debit|Credits
+1|188372|Cash Customar - 002|940.8|0|0|0|0|0|0|0|0|940.8|
+2|188372|Cash Customar - 002|940.8|0|0|0|0|0|0|0|0|940.8|
+3|188373|Cash Customar - 002|744|0|0|0|0|0|0|0|0|744|
+4|188373|Cash Customar - 002|744|0|0|0|0|0|0|0|0|744|
+5|188374|Cash Customar - 002|2415|0|0|0|0|0|0|0|0|2415|
+6|188374|Cash Customar - 002|2415|0|0|0|0|0|0|0|0|2415|
+7|188375|Cash Customar - 002|1702.8|0|0|0|0|0|0|0|0|1702.8|
+8|188375|Cash Customar - 002|1702.8|0|0|0|0|0|0|0|0|1702.8|
+9|188376|Cash Customar - 002|844.8|0|0|0|0|0|0|0|0|844.8|
+10|188376|Cash Customar - 002|844.8|0|0|0|0|0|0|0|0|844.8|
+11|188377|Cash Customar - 002|474|0|0|0|0|0|0|0|0|474|
+12|188377|Cash Customar - 002|474|0|0|0|0|0|0|0|0|474|
+13|188378|Cash Customer - 002|1056|0|0|0|0|0|0|0|0|1056|
+14|188378|Cash Customer - 002|1056|0|0|0|0|0|0|0|0|1056|
+15|188380|Cash Customar - 002|1622.5|0|0|0|0|0|0|0|0|1622.5|
+16|188380|Cash Customar - 002|1622.5|0|0|0|0|0|0|0|0|1622.5|
+17|188381|Cash Customar - 002|5587.8|0|0|0|0|0|0|0|0|5587.8|
+18|188381|Cash Customar - 002|.06|0|0|614.94|0|0|0|0|0|.06|
+19|188381|Cash Customar - 002|.06|0|0|614.94|0|0|0|0|0|.06|
+20|188381|Cash Customar - 002|5587.8|0|0|0|0|0|0|0|0|5587.8|
+21|188382|Cash Customer - 002|.03|0|0|276.81|0|0|0|0|0|.03|
+22|188382|Cash Customar - 002|5686.56|0|0|0|0|0|0|0|0|5686.56|
+23|188382|Cash Customer - 002|.03|0|0|276.81|0|0|0|0|0|.03|
+24|188382|Cash Customar - 002|5686.56|0|0|0|0|0|0|0|0|5686.56|
+25|188383|Cash Customar - 001|.01|0|0|85.99|0|0|0|0|0|.01|
+26|188383|Cash Customar - 002|1047.5|0|0|0|0|0|0|0|0|1047.5|
+27|188383|Cash Customar - 002|1047.5|0|0|0|0|0|0|0|0|1047.5|
+28|188383|Cash Customar - 001|.01|0|0|85.99|0|0|0|0|0|.01|
+29|188384|Cash Customar - 002|412.8|0|0|0|0|0|0|0|0|412.8|
+30|188384|Cash Customar - 002|412.8|0|0|0|0|0|0|0|0|412.8|
+31|188385|Cash Customar - 001|.03|0|0|274.13|0|0|0|0|0|.03|
+32|188385|Cash Customar - 001|.03|0|0|274.13|0|0|0|0|0|.03|
+33|188385|Cash Customer - 002|4667.07|0|0|0|0|0|0|0|0|4667.07|
+34|188385|Cash Customer - 002|4667.07|0|0|0|0|0|0|0|0|4667.07|
+35|188385|Cash Customar - 001|.03|0|0|274.13|0|0|0|0|0|.03|
+36|188385|Cash Customar - 001|.03|0|0|274.13|0|0|0|0|0|.03|
+37|188386|Cash Customar - 001|1728|0|0|0|0|0|0|0|0|1728|
+38|188386|Cash Customar - 001|1728|0|0|0|0|0|0|0|0|1728|
+
+||Total|57859.58|0|0|3052|0|0|0|0|0|57859.58
+||Value|60911.58
