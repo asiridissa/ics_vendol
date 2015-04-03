@@ -1,15 +1,4 @@
-||||From : 01/01/2013 To : 01/03/2015    By user : Super Admin
+||||From : 01/01/2013 To : 01/08/2015    By user : admin
 Code|Area|Bills|Sub-Total|Paid-Total|Collections|<=7|7<=14|14<=21|21<
-002|Allakanda Baddegama Unavitiya|32|55699.44|0|55699.44|0|30|0|2
-003|Hikkaduwa Kumarakanda|0|0|0|0|0|0|0|0
-004|Thagaswala Pitigala|0|0|0|0|0|0|0|0
-005|Kottawa Ellakanda|0|0|0|0|0|0|0|0
-006|Udugama Thawalama|6|2317.88|0|2317.88|0|0|0|6
-007|Hikkaduwa Meetiyagoda|0|0|0|0|0|0|0|0
-008|Aluthwala Meetiyagoda|0|0|0|0|0|0|0|0
-009|Baddegama Batapola|0|0|0|0|0|0|0|0
-010|Mapalagama Wanduramba|0|0|0|0|0|0|0|0
-011|Baddegama  Hikkaduwa|0|0|0|0|0|0|0|0
-012|Baddegama Nagoda|0|0|0|0|0|0|0|0
-001|Wanduramba Mapalagama|2|204.8|0|204.8|0|0|0|2
-| Total|40|58222.12|0|58222.12|0|30|0|10
+OTH|Other|2|500|50|450|2|0|0|0
+| Total|2|500|50|450|2|0|0|0

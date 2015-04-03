@@ -1,24 +1,4 @@
 No|Product|Weight|Van C|Van P|Stock C|Stock P|Total P|Buying Price|Amount|Selling Price|Amount|
-1|Aiino Moto 5g - 02/12/2014|.005|
-2|Ajinomoto  350g - 02/12/2014|.35|
-3|Ajinomoto 500G - 02/12/2014|.5|
-4|Ajinomoto 72g - 02/12/2014|.072|
-5|Ajinamoto  35g - 02/12/2014|.035|
-6|Ajinamoto 15 - 02/12/2014|.015|
-7|Captain 425 - 02/12/2014|.425|
-8|Coconut Milk Powder - 02/12/2014|.15|
-9|Soya Meat chicken 50g - 02/12/2014|.05|
-10|Soya Meat Curry 50g - 02/12/2014|.05|
-11|Soya Meat Cuttie Fish - 02/12/2014|.05|
-12|Soya Meat Fish 50g - 02/12/2014|.05|
-13|Tanga Tea 50g - 02/12/2014|.05|
-14|Tanga Tea 100g - 02/12/2014|.1|
-15|Mr Pop Rings 8g - 02/12/2014|.008|
-16|Mr Pop Curlz 8g - 02/12/2014|.008|
-17|Mr Pop Classic 12g - 05/24/2014|.012|
-18|Plaza 155 - 10/14/2014|.155|
-19|Plaza 230 - 10/14/2014|.23|
-20|Plaza - 425|.425|
-21|Plaza 800 - 10/14/2014|.8|
-22|Mr Pop Cheezy Curlz - 11/14/2014|.008|
+1|Test Item - 01/08/2015|.1|
+2|Test 2 - 01/08/2015|1|
 |Total|

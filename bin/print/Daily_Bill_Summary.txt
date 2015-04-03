@@ -1,3 +1,18 @@
-ID|Product|Weight|Unit|1|Total|
-1|Plaza - 425|.425|24|10|2|12
-|   Date : 01/02/15   Veh : BATTA Saw
+ID|Product|Weight|Unit|1|2|Total|
+1|Goold Marie - 02/24/2013|.08|60|12|7|19
+2|Cream Cracker - 02/24/2013|.125|48||6|6
+3|Cream Cracker - 02/24/2013|.19|40||3|3
+4|Cream Cracker - 06/29/2013|.33|8|10||10
+5|Lemon puff - 06/29/2013|.1|30|1||1
+6|Lemon Puff - 05/13/2013|.2|30|6||6
+7|Sorties - 02/24/2013|.065|60|21||21
+8|Nice - 07/03/2013|.1|60|1||1
+9|Hawaiian Cookies - 06/29/2013|.1|30|3||3
+10|Hawaiian Cookies - 06/29/2013|.2|24|3||3
+11|Bran Cracker - 06/29/2013|.14|40|3||3
+12|Custard Cream - 02/24/2013|.1|50|1||1
+13|Gingernut - 06/29/2013|.08|50|2||2
+14|Millk Short Cake - 06/29/2013|.08|50|6||6
+15|Light Marie - 02/24/2013|.07|60|12||12
+16|Chocolate Cream Marie - 02/24/2013|.065|24||6|6
+|   Date : 02/18/15   Veh : 28 -  8897 Wan

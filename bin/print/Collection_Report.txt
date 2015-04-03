@@ -1,68 +1,8 @@
-|||||From : 01/01/2013 To : 01/03/2015    By user : Super Admin
+|||||From : 01/01/2013 To : 01/08/2015    By user : admin
 |No|Date|Bill No.|Customer|Bill Total|Paid|Collection|Days
-Allakanda Baddegama Unavitiya (002)
-|1|12/22/14|188372|Cash Customar|940.8|0|940.8|12|
-|2|12/22/14|188373|Cash Customar|744|0|744|12|
-|3|12/22/14|188374|Cash Customar|2415|0|2415|12|
-|4|12/22/14|188375|Cash Customar|1702.8|0|1702.8|12|
-|5|12/22/14|188378|Cash Customer|1056|0|1056|12|
-|6|12/22/14|188380|Cash Customar|1622.5|0|1622.5|12|
-|7|12/22/14|188381|Cash Customar|5587.8|0|5587.8|12|
-|8|12/22/14|188381|Cash Customar|.06|0|.06|12|
-|9|12/22/14|188382|Cash Customar|5686.56|0|5686.56|12|
-|10|12/22/14|188382|Cash Customer|.03|0|.03|12|
-|11|12/22/14|188383|Cash Customar|1047.5|0|1047.5|12|
-|12|12/22/14|188384|Cash Customar|412.8|0|412.8|12|
-|13|12/22/14|188385|Cash Customer|4667.07|0|4667.07|12|
-|14|12/23/14|188376|Cash Customar|844.8|0|844.8|11|
-|15|12/22/14|188377|Cash Customar|474|0|474|12|
-|16|12/22/14|188372|Cash Customar|940.8|0|940.8|12|
-|17|12/22/14|188373|Cash Customar|744|0|744|12|
-|18|12/22/14|188374|Cash Customar|2415|0|2415|12|
-|19|12/22/14|188375|Cash Customar|1702.8|0|1702.8|12|
-|20|12/22/14|188378|Cash Customer|1056|0|1056|12|
-|21|12/22/14|188380|Cash Customar|1622.5|0|1622.5|12|
-|22|12/22/14|188381|Cash Customar|5587.8|0|5587.8|12|
-|23|12/22/14|188381|Cash Customar|.06|0|.06|12|
-|24|12/22/14|188382|Cash Customar|5686.56|0|5686.56|12|
-|25|12/22/14|188382|Cash Customer|.03|0|.03|12|
-|26|12/22/14|188383|Cash Customar|1047.5|0|1047.5|12|
-|27|12/22/14|188384|Cash Customar|412.8|0|412.8|12|
-|28|12/22/14|188385|Cash Customer|4667.07|0|4667.07|12|
-|29|12/23/14|188376|Cash Customar|844.8|0|844.8|11|
-|30|12/22/14|188377|Cash Customar|474|0|474|12|
-|31|05/16/14|26125|G K K St|648|0|648|232|
-|32|05/16/14|26125|G K K St|648|0|648|232|
-|||Sub-Total :|32|55699.44|0|55699.44|
-Hikkaduwa Kumarakanda (003)
-|||Sub-Total :|0|0|0|0|
-Thagaswala Pitigala (004)
-|||Sub-Total :|0|0|0|0|
-Kottawa Ellakanda (005)
-|||Sub-Total :|0|0|0|0|
-Udugama Thawalama (006)
-|1|11/05/14|173251|Cash pa|231.34|0|231.34|59|
-|2|11/05/14|173252|Cash pa|514.8|0|514.8|59|
-|3|11/05/14|173253|Cash pa|412.8|0|412.8|59|
-|4|11/05/14|173251|Cash pa|231.34|0|231.34|59|
-|5|11/05/14|173252|Cash pa|514.8|0|514.8|59|
-|6|11/05/14|173253|Cash pa|412.8|0|412.8|59|
-|||Sub-Total :|6|2317.88|0|2317.88|
-Hikkaduwa Meetiyagoda (007)
-|||Sub-Total :|0|0|0|0|
-Aluthwala Meetiyagoda (008)
-|||Sub-Total :|0|0|0|0|
-Baddegama Batapola (009)
-|||Sub-Total :|0|0|0|0|
-Mapalagama Wanduramba (010)
-|||Sub-Total :|0|0|0|0|
-Baddegama  Hikkaduwa (011)
-|||Sub-Total :|0|0|0|0|
-Baddegama Nagoda (012)
-|||Sub-Total :|0|0|0|0|
-Wanduramba Mapalagama (001)
-|1|04/26/14|687|Duminda|102.4|0|102.4|252|
-|2|04/26/14|687|Duminda|102.4|0|102.4|252|
-|||Sub-Total :|2|204.8|0|204.8|
+Other (OTH)
+|1|01/07/15|1|Test Cus|100|50|50|1|
+|2|01/07/15|2|Test Cus|400|0|400|1|
+|||Sub-Total :|2|500|50|450|
  
-|||Total :|40|58222.12|0|58222.12|
+|||Total :|2|500|50|450|
