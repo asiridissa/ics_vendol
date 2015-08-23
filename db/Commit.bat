@@ -1,7 +1,7 @@
 @echo off
 setlocal
 :PROMPT
-SET /P AREYOUSURE=Content in the server will be override. Are you sure Y/N?
+SET /P AREYOUSURE=Content in the server will be override. Are you sure Y/N ?&
 IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
 
 echo Commit will proceed...&
@@ -12,8 +12,12 @@ e:
 rar a db.rar *.* -x*.bat -x*.exe
 svn cleanup
 svn commit -m "%username%"
+
+echo Commit completed...&
 pause
 
 :END
 endlocal
+
+
 
