@@ -10,7 +10,9 @@ set PATH=C:\Program Files\WinRar;%PATH%
 e:
 :cd ics_vendol\db
 rar a db.rar *.* -x*.bat -x*.exe
-echo && This will take few seconds..
+echo &
+echo This will take few seconds..
+echo &
 svn cleanup
 svn commit -m "%username%"
 
