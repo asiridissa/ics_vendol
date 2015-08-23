@@ -14,7 +14,8 @@ rar a db.rar *.* -x*.bat -x*.exe
 svn cleanup
 svn commit -m "%username%"
 
-echo &Commit completed...&
+echo & 
+echo Commit completed...&
 pause
 
 :END
