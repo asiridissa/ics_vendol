@@ -4,7 +4,6 @@ setlocal
 SET /P AREYOUSURE=Content in the local machine will be override. Are you sure [Y/N] ?&
 IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
 echo Update will proceed...&
-rar a db.rar *.* -x*.bat -x*.exe
 echo This will take few seconds..
 svn cleanup
 svn update
