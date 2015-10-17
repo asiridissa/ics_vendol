@@ -4,9 +4,9 @@ setlocal
 SET /P AREYOUSURE=Content in the server will be override. Are you sure [Y/N] ?&
 IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
 echo Commit will proceed...&
-set PATH=C:\Program Files\WinRar;%PATH%
+set PATH=C:\Program Files (x86)\WinRAR;%PATH%
 e:
-:cd ics_vendol\db
+:cd ics\db
 rar a db.rar *.* -x*.bat -x*.exe
 echo This will take few seconds..
 svn cleanup

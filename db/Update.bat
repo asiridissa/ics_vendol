@@ -7,9 +7,9 @@ echo Update will proceed...&
 echo This will take few seconds..
 svn cleanup
 svn update
-set PATH=C:\Program Files\WinRar;%PATH%
+set PATH=C:\Program Files (x86)\WinRAR;%PATH%
 e:
-:cd ics_vendol\db
+:cd ics_shaw\db
 unrar e -o+ db
 echo Update completed...&
 pause
