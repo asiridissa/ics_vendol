@@ -1,4 +1,4 @@
-||||From : 01/01/2013 To : 01/08/2015    By user : admin
+||||From : 12/23/2011 To : 08/22/2015    By user : Duminda
 Code|Area|Bills|Sub-Total|Paid-Total|Collections|<=7|7<=14|14<=21|21<
-OTH|Other|2|500|50|450|2|0|0|0
-| Total|2|500|50|450|2|0|0|0
+2MO|Yatalamattha Banbarapura|42|253262.36|10924|242338.36|2|6|2|32
+| Total|42|253262.36|10924|242338.36|2|6|2|32
