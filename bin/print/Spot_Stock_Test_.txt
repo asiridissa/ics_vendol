@@ -1,71 +1,105 @@
 No|Product|Weight|Van C|Van P|Stock C|Stock P|Total P|Buying Price|Amount|Selling Price|Amount|
-1|Free Line|0|
-2|Goold Marie - 02/24/2013|.08|
-3|Chocolate Cream - 08/14/2013|.1|
-4|Cream Cracker - 02/24/2013|.125|
-5|Cream Cracker - 02/24/2013|.19|
-6|Cream Cracker - 06/29/2013|.33|
-7|Cream Cracker - 02/24/2013|.5|
-8|Lemon puff - 06/29/2013|.1|
-9|Lemon Puff - 05/13/2013|.2|
-10|Lemon Puff - 07/14/2014|.4|
-11|Chocolate Puff - 12/26/2013|.1|
-12|Chocolate Puff - 12/26/2013|.2|
-13|Sorties - 02/24/2013|.065|
-14|Nice - 07/03/2013|.1|
-15|Hawaiian Cookies - 06/29/2013|.1|
-16|Hawaiian Cookies - 06/29/2013|.2|
-17|Bran Cracker - 06/29/2013|.14|
-18|Bran Cracker - 06/29/2013|.21|
-19|Cheesebits - 04/19/2013|.025|
-20|Cheese Bits - 05/13/2013|.08|
-21|Cheese Bits - 05/13/2013|.245|
-22|Krisco - 07/03/2013|.17|
-23|Krisco - 05/13/2013|.215|
-24|Chocolate Cream - 04/02/2015|.4|
-25|Custard Cream - 02/24/2013|.1|
-26|Orange Cream - 03/31/2013|.1|
-27|Chickbits - 06/29/2013|.08|
-28|Chickbit - 05/13/2013|.03|
-29|Inguru Biscuit - 04/02/2015|.08|
-30|Inguru Biscuit - 04/02/2015|.24|
-31|Gingernut - 12/26/2013|.37|
-32|Millk Short Cake - 06/29/2013|.08|
-33|Snackes C & C - 04/21/2015|.03|
-34|Snacker Masala - 04/21/2015|.03|
-35|Milk short cake - 04/02/2015|.185|
-36|Nice - 07/03/2013|.38|
-37|Sorties - 07/03/2013|.325|
-38|New Gift 400 - 06/27/2015|.4|
-39|Kisco Bite - 07/03/2013|.03|
-40|Classic Bis Asst - 05/13/2013|.5|
-41|Goold Marie - 07/03/2013|.32|
-42|Gem - 07/03/2013|.1|
-43|Wafers-chocolate - 07/31/2013|.1|
-44|Waferes Chocolat - 11/11/2013|.25|
-45|Wafers-vanila - 07/31/2013|.1|
-46|Wefers vanila - 11/11/2013|.25|
-47|Spicy Cracker - 03/30/2013|.075|
-48|Spicy Cracker - 03/30/2013|.15|
-49|Biscuit Assotment - 05/03/2013|.5|
-50|Double Cream - Strawbery - 12/26/2013|.11|
-51|Double Cream- Chocolate - 12/26/2013|.11|
-52|Nice - 01/23/2014|.435|
-53|White Chocolate Puff - 03/24/2014|.2|
-54|Yo yo chocolate - 01/05/2015|.055|
-55|Yo yo Lemon - 01/05/2015|.055|
-56|Yo yo Venila - 01/05/2015|.055|
-57|Light Mari - 01/05/2015|.065|
-58|Light Max - 01/05/2015|.26|
-59|Onion Bitsy - 01/05/2015|.02|
-60|Orange Cream - 04/02/2015|.4|
-61|Custard Cream - 04/02/2015|.4|
-62|Wafers-chocolate - 04/02/2015|.4|
-63|Wafers-vanila - 04/02/2015|.4|
-64|Chocolate Marie - 04/02/2015|.08|
-65|Snackers- Spicy - 07/03/2013|.04|
-66|Chocolate Marie - 05/01/2015|.32|
-67|Choco Sorties - 07/15/2015|.325|
-68|YoYo Chocolate - 07/29/2015|.26|
-69|YoYo Vanila - 07/29/2015|.26|
+1|Ajinomoto 5g - 05/01/2015|.005|
+2|Ajinomoto Box - 05/01/2015|.015|
+3|Ajinamoto  35g - 02/12/2014|.035|
+4|Ajinomoto 72g - 05/01/2015|.072|
+5|Ajinomoto 350 - 05/01/2015|.35|
+6|Ajinomoto 500 - 05/01/2015|.5|
+7|Captain 425 - 04/08/2015|.425|
+8|Roxcy 425 - 04/07/2015|.425|
+9|Plaza 800 - 04/07/2015|.8|
+10|Plaza 425 - 05/25/2015|.425|
+11|Plaza 230 - 04/07/2015|.23|
+12|Plaza 155 - 04/07/2015|.155|
+13|Mr Pop classic 12g - 05/01/2015|.012|
+14|Mr Pop Cheesy Balls - 05/01/2015|.016|
+15|Mr Pop Star 16g - 05/01/2015|.016|
+16|Mr Pop Chattery BBQ 18g - 05/01/2015|.018|
+17|Mr Pop Chatters Chilli 18g - 05/01/2015|.018|
+18|Mr Pop Cheezy Curlz - 05/01/2015|.008|
+19|Mr Pop Onion Rings - 05/01/2015|.008|
+20|Mr Pop Classic 35 - 05/01/2015|.035|
+21|Mr Pop Chatters BBQ 35g - 05/01/2015|.035|
+22|Mr Pop Chatters Chilli 35g - 05/01/2015|.035|
+23|Mr Pop Chatters 35g - 05/01/2015|.035|
+24|Renuka Coconut Milk Pow 25g - 05/01/2015|.025|
+25|Soya Meat chicken 50g - 02/12/2014|.05|
+26|Soya Meat Fish 50g - 02/12/2014|.05|
+27|Renuka Cocount Milk Powder 1kg - 05/25/2015|1|
+28|Soya Meat Curry 50g - 02/12/2014|.05|
+29|Renuka Coconut Milk Powder - 05/01/2015|.35|
+30|Soya Meat Cuttie Fish - 02/12/2014|.05|
+31|Soya Meat Prawn - 12/22/2014|.05|
+32|Venilla - 12/22/2014|.028|
+33|Almond - 01/06/2015|.028|
+34|Banana - 01/06/2015|.028|
+35|Pineapple - 01/06/2015|.028|
+36|Rose - 01/06/2015|.028|
+37|Strawberry - 01/06/2015|.028|
+38|Blue - 01/06/2015|.028|
+39|Egg Yellow - 01/06/2015|.028|
+40|Apple Green - 05/25/2015|.028|
+41|Chocolate Browen - 05/25/2015|.028|
+42|Cochineal - 05/25/2015|.028|
+43|Milk White - 12/23/2014|.115|
+44|Bar - 01/14/2015|.65|
+45|Venivel Soap - 01/14/2015|.07|
+46|Richlife Full Cream 1L - 05/01/2015|1|
+47|Richlife Low Fat - 05/01/2015|1|
+48|Richlife Non Fat - 05/01/2015|1|
+49|RichLife Strawberry 180 - 05/01/2015|.18|
+50|Richlife Venila 180 - 05/01/2015|.18|
+51|Richlife Chocolat 180 - 05/01/2015|.18|
+52|Richlife Coffee Milk 180 - 05/01/2015|.18|
+53|Richlife full Cream 180 - 05/01/2015|.18|
+54|Sun Gold - Orenge 23g - 01/06/2015|.023|
+55|Sun Gold - Orange 150g - 01/06/2015|.15|
+56|Sun Gold - Orenge 276g - 01/06/2015|.276|
+57|Sun Gold Mango 23g - 01/06/2015|.023|
+58|Sun Gold Mango 150g - 01/06/2015|.15|
+59|Sun Gold Mango 276g - 01/06/2015|.276|
+60|Sun Gold Mix Fruit - 01/06/2015|.023|
+61|Plaza - 04/07/2015|.425|
+62|Mr Pop Classic 12g - 05/24/2014|.012|
+63|Plaza 425 - 04/08/2015|.425|
+64|Free Line|0|
+65|Plaza 155 - 10/14/2014|.155|
+66|Plaza 230 - 10/14/2014|.23|
+67|Plaza - 425|.425|
+68|Plaza 800 - 10/14/2014|.8|
+69|Roxy Mackeral - 01/06/2015|.425|
+70|Ajinamoto 15 - 02/12/2014|.015|
+71|Ajinomoto  350g - 02/12/2014|.35|
+72|Aiino Moto 5g - 02/12/2014|.005|
+73|Ajinomoto 72g - 02/12/2014|.072|
+74|Ajinomoto 500G - 02/12/2014|.5|
+75|Mr Pop Rings 8g - 02/12/2014|.008|
+76|Mr Pop Curlz 8g - 05/24/2014|.008|
+77|Mr Pop Cheezy Balls - 01/14/2015|.012|
+78|Mr Pop BBq 35g - 01/06/2015|.035|
+79|Mr Pop Chilli 35g - 01/06/2015|.035|
+80|Coco Milk Powder 25g - 01/11/2015|.025|
+81|Tanga Tea 50g - 02/12/2014|.05|
+82|Tanga Tea 100g - 02/12/2014|.1|
+83|Mr Pop Curlz 8g - 02/12/2014|.008|
+84|Sun Gold Mango 276 - 05/01/2015|276|
+85|Captain Canned Fish - 01/06/2015|.245|
+86|Sun Gold Orange 276 - 05/01/2015|.276|
+87|Coco milk Powder 300 - 02/12/2014|.3|
+88|Coconut Milk Powder - 02/12/2014|.15|
+89|Mr Pop Cheezy Curlz - 11/14/2014|.008|
+90|Bar - 12/23/2014|.65|
+91|Captain 425 - 02/12/2014|.425|
+92|Captain 425 - 04/07/2015|.425|
+93|Plaza 155 - 04/08/2015|.155|
+94|Plaza 425 - 04/08/2015|.425|
+95|Apple Green - 01/06/2015|.028|
+96|Chocoalt Brown - 01/06/2015|.028|
+97|Cochineal - 01/06/2015|.028|
+98|Coco Milk Powder - 01/14/2015|.025|
+99|Coco Mplk Powder - 01/14/2015|.15|
+100|Coco Milk Powdaer - 01/14/2015|.3|
+101|Coconut Milk 1kg - 01/06/2015|1|
+102|Renuka Coconut Milk Powder - 05/01/2015|1|
+103|Renuka Coconut Milk Powder - 05/01/2015|.15|
 |Total|

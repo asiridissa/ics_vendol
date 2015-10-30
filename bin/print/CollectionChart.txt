@@ -1,4 +1,17 @@
-||||From : 12/23/2011 To : 08/22/2015    By user : Duminda
+||||From : 01/01/2013 To : 10/30/2015    By user : Super Admin
 Code|Area|Bills|Sub-Total|Paid-Total|Collections|<=7|7<=14|14<=21|21<
-2MO|Yatalamattha Banbarapura|42|253262.36|10924|242338.36|2|6|2|32
-| Total|42|253262.36|10924|242338.36|2|6|2|32
+002|Allakanda Baddegama Unavitiya|0|0|0|0|0|0|0|0
+003|Hikkaduwa Kumarakanda|9|252617.2|11240.6|241376.6|0|0|4|5
+004|Thagaswala Pitigala|5|46157.6|3105|43052.6|0|3|2|0
+005|Kottawa Ellakanda|4|24121.6|9472|14649.6|0|3|0|1
+006|Udugama Thawalama|2|5658.3|2622|3036.3|0|1|0|1
+007|Hikkaduwa Meetiyagoda|0|0|0|0|0|0|0|0
+008|Aluthwala Meetiyagoda|6|72476|0|72476|0|0|5|1
+009|Baddegama Batapola|30|422228.8|24094|398134.8|1|0|23|6
+010|Mapalagama Wanduramba|8|46598.71|32944|13654.71|0|1|2|5
+011|Baddegama  Hikkaduwa|2|18644.3|3358|15286.3|0|0|0|2
+012|Baddegama Nagoda|4|49269.2|15028|34241.2|2|0|0|2
+001|Wanduramba Talagaha|4|47583|0|47583|1|1|0|2
+013|Makubura Udugama|2|19895|0|19895|0|1|0|1
+014|Yatalamaththa Udugma|5|9897.46|4090|5807.46|0|0|0|5
+| Total|81|1015147.17|105953.6|909193.57|4|10|36|31
