@@ -5,60 +5,56 @@ No|Product|Weight|Van C|Van P|Stock C|Stock P|Total P|Buying Price|Amount|Sellin
 4|Ajinomoto 72g - 05/01/2015|.072|
 5|Ajinomoto 350 - 05/01/2015|.35|
 6|Ajinomoto 500 - 05/01/2015|.5|
-7|Captain - 03/26/2009|.425|
-8|Rocy 425 - 06/24/2015|.425|
-9|Plaza 155 - 03/26/2009|.155|
-10|Plaza 230 - 06/24/2015|.23|
-11|Plaza 425 - 05/25/2015|.425|
-12|Plaza 800 - 06/24/2015|.8|
-13|Mr Pop classic 12g - 05/01/2015|.012|
-14|Mr Pop Cheesy Balls - 05/01/2015|.016|
-15|Mr Pop Star 16g - 05/01/2015|.016|
-16|Mr Pop Chatters Chilli 18g - 05/01/2015|.018|
-17|Mr Pop Cheezy Curlz - 05/01/2015|.008|
-18|Mr Pop Onion Rings - 05/01/2015|.008|
-19|Mr Pop Classic 35 - 05/01/2015|.035|
-20|Mr Pop Chatters BBQ 35g - 05/01/2015|.035|
-21|Mr Pop Chatters Chilli 35g - 05/01/2015|.035|
-22|Renuka Coconut Milk Pow 25g - 05/01/2015|.025|
-23|Renuka C M Powder 150 - 06/25/2015|.15|
-24|Renuka Milk Powder 300 - 03/26/2009|.3|
+7|Rocy 425 - 06/24/2015|.425|
+8|Plaza 155 - 06/24/2015|.155|
+9|Plaza 230 - 06/24/2015|.23|
+10|Plaza 425 - 05/25/2015|.425|
+11|Plaza 800 - 06/24/2015|.8|
+12|Mr Pop classic 12g - 05/01/2015|.012|
+13|Mr Pop Cheesy Balls - 05/01/2015|.016|
+14|Mr Pop Star 16g - 05/01/2015|.016|
+15|Mr Pop Chatters Chilli 18g - 05/01/2015|.018|
+16|Mr Pop Cheezy Curlz - 05/01/2015|.008|
+17|Mr Pop Onion Rings - 05/01/2015|.008|
+18|Mr Pop Classic 35 - 05/01/2015|.035|
+19|Mr Pop Chatters BBQ 35g - 05/01/2015|.035|
+20|Mr Pop Chatters Chilli 35g - 05/01/2015|.035|
+21|Renuka Coconut Milk Pow 25g - 05/01/2015|.025|
+22|Renuka C M Powder 150 - 06/25/2015|.15|
+23|Renuka Coconut Milk Powder - 05/01/2015|.35|
+24|Soya Meat chicken 50g - 02/12/2014|.05|
 25|Soya Meat Curry 50g - 02/12/2014|.05|
 26|Renuka Cocount Milk Powder 1kg - 05/25/2015|1|
-27|Soya Meat chicken 50g - 02/12/2014|.05|
-28|Soya Meat Cuttie Fish - 02/12/2014|.05|
-29|Soya Meat Fish 50g - 02/12/2014|.05|
-30|Soya Meat Prawn - 12/22/2014|.05|
-31|Venilla - 12/22/2014|.028|
-32|Almond - 01/06/2015|.028|
-33|Banana - 01/06/2015|.028|
-34|Pineapple - 01/06/2015|.028|
-35|Rose - 01/06/2015|.028|
-36|Strawberry - 01/06/2015|.028|
-37|Blue - 01/06/2015|.028|
-38|Egg Yellow - 01/06/2015|.028|
-39|Apple Green - 05/25/2015|.028|
-40|Chocolate Browen - 05/25/2015|.028|
-41|Cochineal - 05/25/2015|.028|
-42|Milk White - 12/23/2014|.115|
-43|Bar 650 - 06/24/2015|.65|
-44|Venivel Soap - 01/14/2015|.07|
-45|Richlife Full Cream 1L - 05/01/2015|1|
-46|Richlife Low Fat - 05/01/2015|1|
-47|Richlife Non Fat - 05/01/2015|1|
-48|RichLife Strawberry 180 - 05/01/2015|.18|
-49|Richlife Venila 180 - 05/01/2015|.18|
-50|Richlife Chocolat 180 - 05/01/2015|.18|
-51|Richlife full Cream 180 - 05/01/2015|.18|
-52|Sun Gold - Orenge 23g - 01/06/2015|.023|
-53|Sun Gold - Orange 150g - 01/06/2015|.15|
-54|Sun Gold - Orenge 276g - 01/06/2015|.276|
-55|Sun Gold Mango 23g - 01/06/2015|.023|
-56|Sun Gold Mango 150g - 01/06/2015|.15|
-57|Sun Gold Mango 276g - 01/06/2015|.276|
-58|Sun Gold Mix Fruit - 01/06/2015|.023|
-59|AJINOMOTO 15 G - 07/28/2015|.015|
-60|Plaza 155 - 06/24/2015|.155|
-61|Renuka Coconut Milk Powder - 05/01/2015|.35|
-62|Renuka Milk Powder 1kg - 03/26/2009|1|
+27|Soya Meat Cuttie Fish - 02/12/2014|.05|
+28|Soya Meat Fish 50g - 02/12/2014|.05|
+29|Soya Meat Prawn - 12/22/2014|.05|
+30|Venilla - 12/22/2014|.028|
+31|Almond - 01/06/2015|.028|
+32|Banana - 01/06/2015|.028|
+33|Pineapple - 01/06/2015|.028|
+34|Rose - 01/06/2015|.028|
+35|Strawberry - 01/06/2015|.028|
+36|Blue - 01/06/2015|.028|
+37|Egg Yellow - 01/06/2015|.028|
+38|Apple Green - 05/25/2015|.028|
+39|Chocolate Browen - 05/25/2015|.028|
+40|Cochineal - 05/25/2015|.028|
+41|Milk White - 12/23/2014|.115|
+42|Bar 650 - 06/24/2015|.65|
+43|Venivel Soap - 01/14/2015|.07|
+44|Richlife Full Cream 1L - 05/01/2015|1|
+45|Richlife Low Fat - 05/01/2015|1|
+46|Richlife Non Fat - 05/01/2015|1|
+47|RichLife Strawberry 180 - 05/01/2015|.18|
+48|Richlife Venila 180 - 05/01/2015|.18|
+49|Richlife Chocolat 180 - 05/01/2015|.18|
+50|Richlife full Cream 180 - 05/01/2015|.18|
+51|Sun Gold - Orenge 23g - 01/06/2015|.023|
+52|Sun Gold - Orange 150g - 01/06/2015|.15|
+53|Sun Gold - Orenge 276g - 01/06/2015|.276|
+54|Sun Gold Mango 23g - 01/06/2015|.023|
+55|Sun Gold Mango 150g - 01/06/2015|.15|
+56|Sun Gold Mango 276g - 01/06/2015|.276|
+57|Sun Gold Mix Fruit - 01/06/2015|.023|
+58|AJINOMOTO 15 G - 07/28/2015|.015|
 |Total|
