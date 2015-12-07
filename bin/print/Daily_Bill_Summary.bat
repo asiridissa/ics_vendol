@@ -1,6 +1,6 @@
 @echo off
 e:
-del /F E:\ICS_Shaw\bin\print\Daily_Bill_Summary.xlsm
-copy E:\ICS_Shaw\bin\print\ori\Daily_Bill_Summary.xlsm E:\ICS_Shaw\bin\print\Daily_Bill_Summary.xlsm
+del /F Daily_Bill_Summary.xlsm
+copy ori\Daily_Bill_Summary.xlsm Daily_Bill_Summary.xlsm
 exit
 @echo off
