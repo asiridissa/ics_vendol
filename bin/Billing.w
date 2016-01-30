@@ -75,7 +75,7 @@ DEFINE VARIABLE tempCusName AS CHAR     NO-UNDO.
 &Scoped-define INTERNAL-TABLES tt-sale bills area customer vehical
 
 /* Definitions for BROWSE brw                                           */
-&Scoped-define FIELDS-IN-QUERY-brw /* reciptID */ /* tt-sale.bill# */ /* item# */ itmName weight /* cases */ pieses /* damageC */ damP /* expC */ expP GRRD GRST ItmDiscount amount   
+&Scoped-define FIELDS-IN-QUERY-brw /* reciptID */ /* tt-sale.bill# */ /* item# */ itmName weight /* cases */ pieses /* damageC */ damP /* expC */ expP GRRD GRST ItmDiscount valu amount   
 &Scoped-define ENABLED-FIELDS-IN-QUERY-brw   
 &Scoped-define SELF-NAME brw
 &Scoped-define QUERY-STRING-brw FOR EACH tt-sale
@@ -120,7 +120,7 @@ bills.tol - bills.paidAmount
 btnModBill btnDelBill brwBill btnSearch brw filSearch btnPayment ~
 btnBulkBilling RECT-11 RECT-12 RECT-13 ss RECT-14 RECT-16 RECT-17 
 &Scoped-Define DISPLAYED-OBJECTS filBillNo cmbArea cmbCus cmbVeh cmbEmp ~
-filDiscountRate filVarience filPaid filDiscountRateItem cmbName filPieses ~
+filDiscountRate filPaid filDiscountRateItem filVarience cmbName filPieses ~
 filDamP filExpP filGRRD filGRST filStockP filLorriesP filBill# cmbSearchCol ~
 cmbSearchTime filTotal filDiscountedTotal filDiscountedAmount filAmount ~
 filSearch filRecipt# filKg filUnitPrice filCasePrice cmbSearchArea ~
@@ -204,7 +204,7 @@ DEFINE VARIABLE cmbArea AS INTEGER FORMAT ">>>>9":U INITIAL 0
      DROP-DOWN-LIST
      SIZE 35 BY 1 NO-UNDO.
 
-DEFINE VARIABLE cmbCus LIKE customer.cusID
+DEFINE VARIABLE cmbCus AS INTEGER FORMAT ">>>>>>9":U INITIAL 0 
      LABEL "Customer" 
      VIEW-AS COMBO-BOX SORT INNER-LINES 25
      LIST-ITEM-PAIRS "--Select Here--",0
@@ -282,10 +282,10 @@ DEFINE VARIABLE filBill# AS INT64 FORMAT ">>>>>>>>>9":U INITIAL 0
      SIZE 14.14 BY .88
      BGCOLOR 7 FGCOLOR 11  NO-UNDO.
 
-DEFINE VARIABLE filBillNo AS CHARACTER FORMAT "X(20)":U INITIAL "0" 
+DEFINE VARIABLE filBillNo AS CHARACTER FORMAT "X(256)":U INITIAL "0" 
      LABEL "Bill No" 
      VIEW-AS FILL-IN 
-     SIZE 12.57 BY .88
+     SIZE 8.86 BY .88
      BGCOLOR 15 FGCOLOR 1  NO-UNDO.
 
 DEFINE VARIABLE filCasePrice AS DECIMAL FORMAT ">,>>>,>>9.99":U INITIAL 0 
@@ -479,7 +479,8 @@ DEFINE BROWSE brw
  GRRD FORMAT ">>9" LABEL "GRR"
  GRST FORMAT ">>9" LABEL "GRS"
  ItmDiscount FORMAT ">>9.99"
- amount
+ valu LABEL "Value"
+ amount LABEL "Amount"
 /* _UIB-CODE-BLOCK-END */
 &ANALYZE-RESUME
     WITH NO-ROW-MARKERS SEPARATORS NO-TAB-STOP SIZE 97.86 BY 11.27
@@ -511,18 +512,16 @@ DEFINE BROWSE brwBill
 /* ************************  Frame Definitions  *********************** */
 
 DEFINE FRAME DEFAULT-FRAME
-     filBillNo AT ROW 6.19 COL 44.57 RIGHT-ALIGNED WIDGET-ID 168
+     filBillNo AT ROW 6.19 COL 44.58 RIGHT-ALIGNED WIDGET-ID 168
      cmbArea AT ROW 8.04 COL 8.43 COLON-ALIGNED WIDGET-ID 80
-     cmbCus AT ROW 9.04 COL 8.43 COLON-ALIGNED HELP
-          "" WIDGET-ID 92
-          LABEL "Customer"
+     cmbCus AT ROW 9.04 COL 8.43 COLON-ALIGNED WIDGET-ID 92
      cmbVeh AT ROW 10.04 COL 8.43 COLON-ALIGNED WIDGET-ID 84
      cmbEmp AT ROW 11.04 COL 8.43 COLON-ALIGNED WIDGET-ID 82
      filDiscountRate AT ROW 12.73 COL 34.72 COLON-ALIGNED NO-LABEL WIDGET-ID 174
-     filVarience AT ROW 12.96 COL 8.43 COLON-ALIGNED WIDGET-ID 202
      filPaid AT ROW 14.88 COL 8.43 COLON-ALIGNED WIDGET-ID 142 NO-TAB-STOP 
      btnAdd AT ROW 16.23 COL 15.57 RIGHT-ALIGNED WIDGET-ID 42
      filDiscountRateItem AT ROW 19.42 COL 34.72 COLON-ALIGNED NO-LABEL WIDGET-ID 122
+     filVarience AT ROW 12.96 COL 8.43 COLON-ALIGNED WIDGET-ID 202 NO-TAB-STOP 
      cmbName AT ROW 21.54 COL 6.72 COLON-ALIGNED WIDGET-ID 54
      filPieses AT ROW 22.58 COL 6.72 COLON-ALIGNED WIDGET-ID 32
      filDamP AT ROW 22.58 COL 20.14 COLON-ALIGNED WIDGET-ID 38
@@ -546,7 +545,7 @@ DEFINE FRAME DEFAULT-FRAME
      btnDel AT ROW 16.23 COL 32 WIDGET-ID 48 NO-TAB-STOP 
      btnMod AT ROW 16.23 COL 17.29 WIDGET-ID 50 NO-TAB-STOP 
      filDiscountedAmount AT ROW 18.65 COL 6.72 COLON-ALIGNED WIDGET-ID 124 NO-TAB-STOP 
-     brw AT ROW 16.08 COL 47.14 WIDGET-ID 200
+     brw AT ROW 16.08 COL 47 WIDGET-ID 200
      btnCancelBill AT ROW 4.69 COL 32 WIDGET-ID 154 NO-TAB-STOP 
      filAmount AT ROW 19.62 COL 6.72 COLON-ALIGNED WIDGET-ID 34 NO-TAB-STOP 
      filSearch AT ROW 1.31 COL 12.72 COLON-ALIGNED NO-LABEL WIDGET-ID 126 NO-TAB-STOP 
@@ -563,7 +562,7 @@ DEFINE FRAME DEFAULT-FRAME
     WITH 1 DOWN NO-BOX KEEP-TAB-ORDER OVERLAY 
          SIDE-LABELS NO-UNDERLINE THREE-D 
          AT COL 1 ROW 1
-         SIZE 144.29 BY 26.54
+         SIZE 144.29 BY 26.38
          FONT 10 WIDGET-ID 100.
 
 /* DEFINE FRAME statement is approaching 4K Bytes.  Breaking it up   */
@@ -591,7 +590,7 @@ DEFINE FRAME DEFAULT-FRAME
     WITH 1 DOWN NO-BOX KEEP-TAB-ORDER OVERLAY 
          SIDE-LABELS NO-UNDERLINE THREE-D 
          AT COL 1 ROW 1
-         SIZE 144.29 BY 26.54
+         SIZE 144.29 BY 26.38
          FONT 10 WIDGET-ID 100.
 
 
@@ -613,8 +612,8 @@ IF SESSION:DISPLAY-TYPE = "GUI":U THEN
          HIDDEN             = YES
          TITLE              = "ICS - Bills"
          COLUMN             = 1.57
-         ROW                = 1.23
-         HEIGHT             = 26.54
+         ROW                = 1
+         HEIGHT             = 26.38
          WIDTH              = 144.29
          MAX-HEIGHT         = 26.54
          MAX-WIDTH          = 144.29
@@ -668,7 +667,7 @@ ASSIGN
 /* SETTINGS FOR COMBO-BOX cmbArea IN FRAME DEFAULT-FRAME
    NO-ENABLE                                                            */
 /* SETTINGS FOR COMBO-BOX cmbCus IN FRAME DEFAULT-FRAME
-   NO-ENABLE LIKE = ics.customer.cusID EXP-LABEL EXP-SIZE               */
+   NO-ENABLE                                                            */
 /* SETTINGS FOR COMBO-BOX cmbEmp IN FRAME DEFAULT-FRAME
    NO-ENABLE                                                            */
 /* SETTINGS FOR COMBO-BOX cmbName IN FRAME DEFAULT-FRAME
@@ -824,15 +823,15 @@ END.
 ON WINDOW-CLOSE OF C-Win /* ICS - Bills */
 DO:
   /* This event will close the window and terminate the procedure.  */
-/*   MESSAGE "Confrm to close the window?" VIEW-AS ALERT-BOX INFO BUTTONS YES-NO UPDATE yn AS LOGICAL. */
-/*   IF yn = YES THEN                                                                                  */
-/*     DO:                                                                                             */
+  MESSAGE "Confrm to close the window?" VIEW-AS ALERT-BOX INFO BUTTONS YES-NO UPDATE yn AS LOGICAL.
+  IF yn = YES THEN
+    DO:
       session_Window = session_Window - 1.
       APPLY "CLOSE":U TO THIS-PROCEDURE.
       RETURN NO-APPLY.
-/*     END. */
-/*   ELSE   */
-/*     RETURN NO-APPLY. */
+    END.
+  ELSE
+    RETURN NO-APPLY.
 END.
 
 /* _UIB-CODE-BLOCK-END */
@@ -893,22 +892,12 @@ END.
 &ANALYZE-SUSPEND _UIB-CODE-BLOCK _CONTROL brwBill C-Win
 ON LEFT-MOUSE-DBLCLICK OF brwBill IN FRAME DEFAULT-FRAME /* Bills */
 DO:
-/*   RUN cusLoaderAll. */
-    DEFINE VARIABLE tempArea AS INTEGER     NO-UNDO.
-    DEFINE VARIABLE tempCustomer AS INTEGER     NO-UNDO.
+  RUN cusLoaderAll.
     IF AVAILABLE bills THEN
     DO:
         tempDiscountTol = 0.
         tempDiscountItems = 0.
         cmbArea             = bills.areaCode.   
-
-        FIND FIRST area WHERE ID = bills.areaCode EXCLUSIVE-LOCK NO-ERROR.
-            cmbCus:LIST-ITEM-PAIRS = "--Select Here--,0".
-            FOR EACH customer WHERE CusArea = area.descrip.
-                cmbCus:ADD-LAST(customer.cusName,customer.cusID) NO-ERROR.
-            END.
-        RELEASE area.
-
         cmbCus              = bills.cusID.
         cmbEmp              = bills.empCode.
         cmbVeh              = bills.vehNo.
@@ -964,7 +953,7 @@ DO:
     
             APPLY "VALUE-CHANGED":U TO brw.
     
-            DISPLAY cmbCus filVarience filDiscountItem filDiscountBillAmount filDiscountBill filBillNo filPaid brw filTotal cmbArea cmbCus cmbEmp cmbVeh 
+            DISPLAY filVarience filDiscountItem filDiscountBillAmount filDiscountBill filBillNo filPaid brw filTotal cmbArea cmbCus cmbEmp cmbVeh 
                 filDiscountedTotal filDiscountRate filBill#
                 WITH FRAME {&FRAME-NAME}.
             END.
@@ -1165,6 +1154,12 @@ DO:
             cmbEmp                = 0.
             filDiscountBill       = 0.
             filDiscountRate       = 0.
+            
+
+
+
+
+        END.
        
         calendr:ENABLED = FALSE.
         DISABLE filVarience
@@ -1215,7 +1210,6 @@ DO:
 /*         APPLY "VALUE-CHANGED":U TO brwBill. */
 
         bulkStat = NO.
-         END.
 END.
 
 /* _UIB-CODE-BLOCK-END */
@@ -1373,9 +1367,7 @@ DO:
     IF bulkStat = NO THEN 
     DO:
         calendr:VALUE = TODAY - 1.
-
-/*         cmbArea = WEEKDAY(calendr:VALUE) - 1. */
-
+        cmbArea = WEEKDAY(calendr:VALUE) - 1.
        RUN cusLoader.
     END.
 
@@ -1485,15 +1477,15 @@ DO:
   FIND FIRST tt-sale WHERE tt-sale.itmName = itemsName AND tt-sale.weight = itemsW EXCLUSIVE-LOCK NO-ERROR.
     IF AVAILABLE tt-sale AND addModify = "add" THEN
         DO: 
-            MESSAGE "This Item already in the list." VIEW-AS ALERT-BOX INFO BUTTONS OK.
-/*             RETURN. */
+            MESSAGE "This Item already added." VIEW-AS ALERT-BOX WARNING BUTTONS OK.
+            RETURN.
         END.
   RELEASE tt-sale.
   
 
-/*   MESSAGE "Conferm to save the record?" VIEW-AS ALERT-BOX INFO BUTTONS YES-NO UPDATE yn AS LOGICAL. */
-/*   IF yn = YES THEN                                                                                  */
-/*   DO:                                                                                               */
+  MESSAGE "Conferm to save the record?" VIEW-AS ALERT-BOX INFO BUTTONS YES-NO UPDATE yn AS LOGICAL.
+  IF yn = YES THEN
+  DO:
         IF addModify = "add" THEN
          DO:
             CREATE tt-sale.
@@ -1509,7 +1501,7 @@ DO:
             damP            = filDamP
             expP            = filExpP
             amount          = filDiscountedAmount
-            val             = filAmount
+            val             = filAmountPure
             ItmDiscount     = filDiscountRateItem
             .
             tempReciptID = tempReciptID + 1.
@@ -1537,7 +1529,7 @@ DO:
                 damP            = filDamP
                 expP            = filExpP
                 amount          = filDiscountedAmount
-                val             = filAmount
+                val             = filAmountPure
                 ItmDiscount     = filDiscountRateItem
                 .
             END.
@@ -1552,7 +1544,7 @@ DO:
 
         OPEN QUERY brw FOR EACH tt-sale  BY tt-sale.SortID.
         APPLY "VALUE-CHANGED":U TO brw.
-/*   END. */
+  END.
 END.
 
 /* _UIB-CODE-BLOCK-END */
@@ -1601,17 +1593,17 @@ DO:
         MESSAGE "Select Employee first" VIEW-AS ALERT-BOX WARNING BUTTONS OK TITLE "Inventry Control Syatem".
         RETURN.
     END.
-    IF filPerCase = 0 AND filVarience = 0 THEN
+    IF filPerCase = 0 THEN
     DO:
         MESSAGE "Enter Items First" VIEW-AS ALERT-BOX WARNING BUTTONS OK TITLE "Inventry Control Syatem".
         RETURN.
     END.
     
 
-/*   MESSAGE "Confirm to save the record?" SKIP                                                                 */
-/*       "You cannot change this record again." VIEW-AS ALERT-BOX QUESTION BUTTONS YES-NO UPDATE yn AS LOGICAL. */
-/*   IF yn = YES THEN                                                                                           */
-/*   DO:                                                                                                        */
+  MESSAGE "Confirm to save the record?" SKIP
+      "You cannot change this record again." VIEW-AS ALERT-BOX QUESTION BUTTONS YES-NO UPDATE yn AS LOGICAL.
+  IF yn = YES THEN
+  DO:
 
       FIND FIRST customer WHERE customer.cusID = cmbCus.
         IF AVAILABLE customer THEN
@@ -1657,54 +1649,26 @@ DO:
                 END.
 
         
-            FOR EACH tt-sale NO-LOCK:
-               ACCUMULATE tt-sale.bill# (COUNT).
-            END.
+            FOR EACH tt-sale.
 
-            IF  (ACCUM COUNT tt-sale.bill#) > 0 THEN
-            DO:
-                FOR EACH tt-sale.
-                    CREATE recipts.
-                        recipts.amount      = tt-sale.amount       .
-                        recipts.bill#       = tt-sale.bill#        .
-                        recipts.cases       = tt-sale.cases        .
-                        recipts.damageC     = tt-sale.damageC      .
-                        recipts.damP        = tt-sale.damP         .
-                        recipts.expC        = tt-sale.expC         .
-                        recipts.expP        = tt-sale.expP         .
-                        recipts.GRRD        = tt-sale.GRRD         .
-                        recipts.GRST        = tt-sale.GRST         .
-                        recipts.item#       = tt-sale.item#        .
-                        recipts.itmName     = tt-sale.itmName      .
-                        recipts.pieses      = tt-sale.pieses       .
-                        recipts.reciptID    = tt-sale.reciptID     .
-                        recipts.weight      = tt-sale.weight       .
-                        recipts.valu        = tt-sale.valu         .
-                        recipts.ItmDiscount = tt-sale.ItmDiscount  .
-                        recipts.customGRAmount = tt-sale.customGRAmount.
-                END.
-            END.
-            ELSE
-            DO:
-                tempReciptID = tempReciptID + 1.
                 CREATE recipts.
-                        recipts.amount      = 0       .
-                        recipts.bill#       = filBill#        .
-                        recipts.cases       = 0       .
-                        recipts.damageC     = 0     .
-                        recipts.damP        = 0     .
-                        recipts.expC        = 0     .
-                        recipts.expP        = 0     .
-                        recipts.GRRD        = 0     .
-                        recipts.GRST        = 0     .
-                        recipts.item#       = 0        .
-                        recipts.itmName     = "Free Line"      .
-                        recipts.pieses      = 0       .
-                        recipts.reciptID    = tempReciptID     .
-                        recipts.weight      = 0       .
-                        recipts.valu        = 0         .
-                        recipts.ItmDiscount = 0  .
-                        recipts.customGRAmount = 0.
+                    recipts.amount      = tt-sale.amount       .
+                    recipts.bill#       = tt-sale.bill#        .
+                    recipts.cases       = tt-sale.cases        .
+                    recipts.damageC     = tt-sale.damageC      .
+                    recipts.damP        = tt-sale.damP         .
+                    recipts.expC        = tt-sale.expC         .
+                    recipts.expP        = tt-sale.expP         .
+                    recipts.GRRD        = tt-sale.GRRD         .
+                    recipts.GRST        = tt-sale.GRST         .
+                    recipts.item#       = tt-sale.item#        .
+                    recipts.itmName     = tt-sale.itmName      .
+                    recipts.pieses      = tt-sale.pieses       .
+                    recipts.reciptID    = tt-sale.reciptID     .
+                    recipts.weight      = tt-sale.weight       .
+                    recipts.valu        = tt-sale.valu         .
+                    recipts.ItmDiscount = tt-sale.ItmDiscount  .
+                    recipts.customGRAmount = tt-sale.customGRAmount.
             END.
         
             FIND FIRST paramtrs WHERE NAME = "transaction#".
@@ -1790,7 +1754,7 @@ DO:
           END.
 
 
-/*   END. */
+  END.
 END.
 
 /* _UIB-CODE-BLOCK-END */
@@ -1951,9 +1915,9 @@ END.
 &Scoped-define SELF-NAME CtrlFrame-2
 &ANALYZE-SUSPEND _UIB-CODE-BLOCK _CONTROL CtrlFrame-2 C-Win OCX.Change
 PROCEDURE CtrlFrame-2.DTPicker.Change .
-/* cmbArea = WEEKDAY(calendr:VALUE) - 1. */
+cmbArea = WEEKDAY(calendr:VALUE) - 1.
 RUN cusLoader.
-
+DISPLAY cmbArea WITH FRAME {&FRAME-NAME}.
 END PROCEDURE.
 
 /* _UIB-CODE-BLOCK-END */
@@ -2483,6 +2447,7 @@ DO ON ERROR   UNDO MAIN-BLOCK, LEAVE MAIN-BLOCK
   RUN areaLoader.
   RUN empLoader.
 /*   RUN cusLoader. */
+  RUN cusLoaderAll.
   RUN vehLoader.
   RUN areaCodeLoader.
   RUN getTbl.
@@ -2722,7 +2687,7 @@ DISPLAY WITH FRAME DEFAULT-FRAME.
 
 cmbCus = 0.
 
-IF cmbArea = 0 AND filBillNo <> "0" THEN
+IF cmbArea = 0 THEN
 DO:
     MESSAGE "Select an Area first." VIEW-AS ALERT-BOX INFO BUTTONS OK.
     cmbCus:LIST-ITEM-PAIRS = "--Select Here--,0".
@@ -2730,20 +2695,15 @@ END.
 ELSE
 DO:
     FIND FIRST area WHERE ID = cmbArea EXCLUSIVE-LOCK NO-ERROR.
-    IF  AVAILABLE area THEN
-    DO:
-        areaCod = area.descrip.
-    
-        cmbCus:LIST-ITEM-PAIRS = "--Select Here--,0".
-        FOR EACH customer WHERE CusArea = areaCod.
-            cmbCus:ADD-LAST(cusName,cusID) NO-ERROR.
-            cnt = cnt + 1.
-        END.
-        IF cnt = 0 THEN
-            MESSAGE "No Customers for this Area." VIEW-AS ALERT-BOX WARNING BUTTONS OK.
-        ELSE 
-            DISPLAY cmbArea WITH FRAME {&FRAME-NAME}.
+    areaCod = area.descrip.
+
+    cmbCus:LIST-ITEM-PAIRS = "--Select Here--,0".
+    FOR EACH customer WHERE CusArea = areaCod.
+        cmbCus:ADD-LAST(cusName,cusID) NO-ERROR.
+        cnt = cnt + 1.
     END.
+    IF cnt = 0 THEN
+        MESSAGE "No Customers for this Area." VIEW-AS ALERT-BOX WARNING BUTTONS OK.
 END.
 
 DISPLAY cmbCus WITH FRAME DEFAULT-FRAME.
@@ -2823,12 +2783,13 @@ PROCEDURE enable_UI :
                Settings" section of the widget Property Sheets.
 ------------------------------------------------------------------------------*/
   RUN control_load.
-  DISPLAY filBillNo cmbArea cmbCus cmbVeh cmbEmp filDiscountRate filVarience 
-          filPaid filDiscountRateItem cmbName filPieses filDamP filExpP filGRRD 
-          filGRST filStockP filLorriesP filBill# cmbSearchCol cmbSearchTime 
-          filTotal filDiscountedTotal filDiscountedAmount filAmount filSearch 
-          filRecipt# filKg filUnitPrice filCasePrice cmbSearchArea filPerCase 
-          filDiscountBill filDiscountItem filDiscountBillAmount filAmountPure 
+  DISPLAY filBillNo cmbArea cmbCus cmbVeh cmbEmp filDiscountRate filPaid 
+          filDiscountRateItem filVarience cmbName filPieses filDamP filExpP 
+          filGRRD filGRST filStockP filLorriesP filBill# cmbSearchCol 
+          cmbSearchTime filTotal filDiscountedTotal filDiscountedAmount 
+          filAmount filSearch filRecipt# filKg filUnitPrice filCasePrice 
+          cmbSearchArea filPerCase filDiscountBill filDiscountItem 
+          filDiscountBillAmount filAmountPure 
       WITH FRAME DEFAULT-FRAME IN WINDOW C-Win.
   ENABLE btnNewBill cmbSearchCol cmbSearchTime btnModBill btnDelBill brwBill 
          btnSearch brw filSearch btnPayment btnBulkBilling RECT-11 RECT-12 
@@ -2977,10 +2938,10 @@ END PROCEDURE.
 PROCEDURE itemsLoader :
 cmbName:LIST-ITEM-PAIRS IN FRAME {&FRAME-NAME} = "--Select Here--,0" NO-ERROR. 
 FOR EACH itms BY itms.SortID.
-/*     FIND FIRST tt-sale WHERE tt-sale.itmName = itms.itmName AND tt-sale.weight = unitWeightKG NO-ERROR. */
-/*     IF NOT AVAILABLE tt-sale THEN                                                                       */
+    FIND FIRST tt-sale WHERE tt-sale.itmName = itms.itmName AND tt-sale.weight = unitWeightKG NO-ERROR.
+    IF NOT AVAILABLE tt-sale THEN
     cmbName:ADD-LAST(itms.itmName + " - " + STRING(unitWeightKG,">>9.999") + " kg",STRING(itmID)) IN FRAME DEFAULT-FRAME.
-/*     RELEASE tt-sale. */
+    RELEASE tt-sale.
 END.
 DISPLAY cmbName WITH FRAME {&FRAME-NAME}.
 END PROCEDURE.
