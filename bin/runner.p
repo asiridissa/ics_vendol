@@ -1,4 +1,4 @@
-IF TODAY > 12/31/2016 THEN
+IF TODAY > 12/31/2015 THEN
 DO:
     MESSAGE "Your activation period is expired." SKIP
         "Please contact System Administrator to activate."

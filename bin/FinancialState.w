@@ -110,10 +110,10 @@ DEFINE TEMP-TABLE tt-transactionLastDay
     ~{&OPEN-QUERY-brw}
 
 /* Standard List Definitions                                            */
-&Scoped-Define ENABLED-OBJECTS RECT-1 RECT-4 filTotal filTotalFissu ~
-filTotalCash radTimePeriod cmbVeh btnView filTotalDisc filTotalExp ~
-filTotalCredit filValue filTotalDam filTotalCheque btnPrint filToCollect ~
-filTotalGr filTotalVarience brw 
+&Scoped-Define ENABLED-OBJECTS filTotal filTotalFissu filTotalCash RECT-1 ~
+RECT-4 radTimePeriod cmbVeh btnView filTotalDisc filTotalExp filTotalCredit ~
+filValue filTotalDam filTotalCheque btnPrint filToCollect filTotalGr ~
+filTotalVarience brw 
 &Scoped-Define DISPLAYED-OBJECTS filTotal filTotalFissu filTotalCash ~
 radTimePeriod cmbVeh filTotalDisc filTotalExp filTotalCredit filValue ~
 filTotalDam filTotalCheque filToCollect filTotalGr filTotalVarience 
@@ -1360,7 +1360,7 @@ PROCEDURE enable_UI :
           filTotalExp filTotalCredit filValue filTotalDam filTotalCheque 
           filToCollect filTotalGr filTotalVarience 
       WITH FRAME DEFAULT-FRAME IN WINDOW C-Win.
-  ENABLE RECT-1 RECT-4 filTotal filTotalFissu filTotalCash radTimePeriod cmbVeh 
+  ENABLE filTotal filTotalFissu filTotalCash RECT-1 RECT-4 radTimePeriod cmbVeh 
          btnView filTotalDisc filTotalExp filTotalCredit filValue filTotalDam 
          filTotalCheque btnPrint filToCollect filTotalGr filTotalVarience brw 
       WITH FRAME DEFAULT-FRAME IN WINDOW C-Win.

@@ -332,7 +332,7 @@ DO:
     DO:
         DEFINE VARIABLE tempCount AS INTEGER     NO-UNDO.
 
-        OUTPUT TO VALUE("print\Summary.txt").
+        OUTPUT TO VALUE("E:\ICS\bin\print\Summary.txt").
 
         APPLY "VALUE-CHANGED":U TO radTimePeriod IN FRAME DEFAULT-FRAME. 
 
@@ -402,9 +402,9 @@ DO:
         OUTPUT CLOSE.
 
 
-        DOS SILENT START VALUE("print\Summary.bat").
+        DOS SILENT START VALUE("E:\ICS\bin\print\Summary.bat").
 
-        DOS SILENT START excel VALUE("print\Summary.xlsx").
+        DOS SILENT START excel VALUE("E:\ICS\bin\print\Summary.xlsx").
     END.
 
     {&SELF-NAME}:LABEL = "Print".
@@ -495,18 +495,13 @@ DO ON ERROR   UNDO MAIN-BLOCK, LEAVE MAIN-BLOCK
    ON END-KEY UNDO MAIN-BLOCK, LEAVE MAIN-BLOCK:
   RUN enable_UI.
 
-  DEFINE SHARED VARIABLE session_Path AS CHAR.
-  DEFINE SHARED VARIABLE session_icon AS CHAR.
-  {&WINDOW-NAME}:TITLE = session_Path.
-  {&WINDOW-NAME}:LOAD-ICON(session_icon).
-
   calendrFrom = chCtrlFrame:DTPickerFrom.
   calendrFrom:ENABLED = TRUE.
-/*   calendrFrom:VALUE = 9/25/2015. */
+  calendrFrom:VALUE = NOW.
 
   calendrTo = chCtrlFrame-2:DTPickerTo.
   calendrTo:ENABLED = FALSE.
-/*   calendrTo:VALUE = 10/1/2015. */
+  calendrTo:VALUE = NOW.
 
 
   IF NOT THIS-PROCEDURE:PERSISTENT THEN
@@ -628,8 +623,9 @@ FOR EACH bills WHERE bills.bilDate >= dateFrom AND bills.bilDate <= dateTo BY bi
             tt-db.VehId = bills.vehNo.
             tt-db.DATE = bills.bilDate.
             tt-db.Varience = tt-db.Varience + bills.Varience.
-            tt-db.Tol      = tt-db.Tol + bills.Tol.
+           
     END.
+
 
     FOR EACH recipts WHERE recipts.bill# = bills.bill#.
         DEFINE VARIABLE price AS DECIMAL     NO-UNDO.
@@ -652,6 +648,7 @@ FOR EACH bills WHERE bills.bilDate >= dateFrom AND bills.bilDate <= dateTo BY bi
         ACCUMULATE recipts.GRST * price (TOTAL).
     END.
 
+    tt-db.Tol      = tt-db.Tol + bills.Tol.
     tt-db.Damage    = ACCUM TOTAL recipts.damP * price.
     tt-db.Expiery    = ACCUM TOTAL recipts.expP * price.
     tt-db.GR   = ACCUM TOTAL recipts.GRST * price.
