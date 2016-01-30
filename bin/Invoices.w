@@ -682,29 +682,29 @@ END.
 ON CHOOSE OF btnDel IN FRAME EFAULT-FRAME /* Delete */
 DO:
 
-    MESSAGE "This function is temporaray out of service" VIEW-AS ALERT-BOX INFO BUTTONS OK.
-/*   IF filitmName <> "" THEN                                                                                    */
-/*   DO:                                                                                                         */
-/*       MESSAGE "Conferm to delete the record?" VIEW-AS ALERT-BOX QUESTION BUTTONS YES-NO UPDATE yn AS LOGICAL. */
-/*       IF yn = YES THEN                                                                                        */
-/*       DO:                                                                                                     */
-/*           FIND FIRST itms WHERE itmID = filID EXCLUSIVE-LOCK NO-ERROR.                                        */
-/*           IF AVAILABLE itms THEN                                                                              */
-/* /*             DELETE itms. */                                                                                */
-/*               stat = NO.                                                                                      */
-/*           ELSE                                                                                                */
-/*               MESSAGE "No Records to Delete." VIEW-AS ALERT-BOX ERROR BUTTONS OK .                            */
-/*           RELEASE itms.                                                                                       */
-/*                                                                                                               */
-/*           IF NOT ERROR-STATUS:ERROR THEN                                                                      */
-/*               MESSAGE "Record successfully deleted." VIEW-AS ALERT-BOX INFO BUTTONS OK.                       */
-/*                                                                                                               */
-/*           OPEN QUERY brwItem FOR EACH itms where stat = yes BY itms.SortID.                                   */
-/*           APPLY "VALUE-CHANGED":U TO brwItem.                                                                 */
-/*       END.                                                                                                    */
-/*   END.                                                                                                        */
-/*   ELSE                                                                                                        */
-/*       MESSAGE "No records to Delete." VIEW-AS ALERT-BOX ERROR BUTTONS OK.                                     */
+/*     MESSAGE "This function is temporaray out of service" VIEW-AS ALERT-BOX INFO BUTTONS OK. */
+  IF filitmName <> "" THEN
+  DO:
+      MESSAGE "Conferm to delete the record?" VIEW-AS ALERT-BOX QUESTION BUTTONS YES-NO UPDATE yn AS LOGICAL.
+      IF yn = YES THEN
+      DO:
+          FIND FIRST itms WHERE itmID = filID EXCLUSIVE-LOCK NO-ERROR.
+          IF AVAILABLE itms THEN
+/*             DELETE itms. */
+              stat = NO.
+          ELSE
+              MESSAGE "No Records to Delete." VIEW-AS ALERT-BOX ERROR BUTTONS OK .
+          RELEASE itms.
+
+          IF NOT ERROR-STATUS:ERROR THEN
+              MESSAGE "Record successfully deleted." VIEW-AS ALERT-BOX INFO BUTTONS OK.
+
+          OPEN QUERY brwItem FOR EACH itms where stat = yes BY itms.SortID.
+          APPLY "VALUE-CHANGED":U TO brwItem.
+      END.
+  END.
+  ELSE
+      MESSAGE "No records to Delete." VIEW-AS ALERT-BOX ERROR BUTTONS OK.
 
 END.
 
@@ -752,6 +752,7 @@ END.
 ON CHOOSE OF btnMod IN FRAME EFAULT-FRAME /* Modify */
 DO:
 
+/*     MESSAGE "This function is temporaray out of service" VIEW-AS ALERT-BOX INFO BUTTONS OK. */
   IF filitmName <> "" THEN
   DO:
       ENABLE fillDiscount btnCancel btnSave filcasePriceB filcasePriceS filunitPriceB filunitPriceS cmbCat  filitmName /*filmaxWeight*/ filnoOfCases filnoOfUnits filunitsPerCase filunitWeightKG

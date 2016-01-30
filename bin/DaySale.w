@@ -2071,7 +2071,7 @@ END PROCEDURE.
 
 &ANALYZE-SUSPEND _UIB-CODE-BLOCK _PROCEDURE printHtml C-Win 
 PROCEDURE printHtml :
-OUTPUT TO VALUE("E:\ICS_Shaw\bin\Report.html").
+OUTPUT TO VALUE("E:\ICS\bin\Report.html").
 
     PUT UNFORMAT "<html>".
     PUT UNFORMAT "<head>".
@@ -2111,7 +2111,7 @@ OUTPUT TO VALUE("E:\ICS_Shaw\bin\Report.html").
 
     OUTPUT CLOSE.
 
-    DOS SILENT START chrome VALUE("E:\ICS_Shaw\bin\Report.html").
+    DOS SILENT START chrome VALUE("E:\ICS\bin\Report.html").
 
 END PROCEDURE.
 
@@ -2134,7 +2134,7 @@ FIND FIRST vehical WHERE vehical.ID = cmbVeh.
 tempVeh  = STRING(vehical.veh#).
 tempUser = session_User.
 
-OUTPUT TO VALUE("E:\ICS_Shaw\bin\print\DaySale.txt").
+OUTPUT TO VALUE("E:\ICS\bin\print\DaySale.txt").
           PUT UNFORMAT "User :|". 
           PUT UNFORMAT tempUser .
           PUT UNFORMAT "       Date : ".
@@ -2193,8 +2193,8 @@ OUTPUT TO VALUE("E:\ICS_Shaw\bin\print\DaySale.txt").
 
   OUTPUT CLOSE.
 
-  DOS SILENT START VALUE("E:\ICS_Shaw\bin\print\DaySale.bat").
-  DOS SILENT START excel VALUE("E:\ICS_Shaw\bin\print\DaySale.xlsm").
+  DOS SILENT START VALUE("E:\ICS\bin\print\DaySale.bat").
+  DOS SILENT START excel VALUE("E:\ICS\bin\print\DaySale.xlsm").
 
 END PROCEDURE.
 
@@ -2214,7 +2214,7 @@ FIND FIRST vehical WHERE vehical.ID = cmbVeh.
 tempVeh  = STRING(vehical.veh#).
 tempUser = session_User.
 
-    OUTPUT TO VALUE("E:\ICS_Shaw\bin\print\DaySale.txt").
+    OUTPUT TO VALUE("E:\ICS\bin\print\DaySale.txt").
     PUT UNFORMAT " Date : " + STRING(tempDate) + "    Vehical : " + tempVeh + "  " + descrip + "    By User : " + tempUser SKIP. 
     PUT UNFORMAT "No|Item|Weight|Price|UPC|BSC|BSP|RDR|LDC|LDP|ULC|ULP|RDC|RDP|BilP|Excs|Shrt" SKIP. 
     
@@ -2268,8 +2268,8 @@ tempUser = session_User.
     
     OUTPUT CLOSE.
     
-    DOS SILENT START VALUE("E:\ICS_Shaw\bin\print\DaySale.bat").
-    DOS SILENT START excel VALUE("E:\ICS_Shaw\bin\print\DaySale.xlsm").
+    DOS SILENT START VALUE("E:\ICS\bin\print\DaySale.bat").
+    DOS SILENT START excel VALUE("E:\ICS\bin\print\DaySale.xlsm").
 
 END PROCEDURE.
 
