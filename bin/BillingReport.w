@@ -274,10 +274,10 @@ DEFINE FRAME DEFAULT-FRAME
      filTotalGr AT ROW 3.58 COL 97 COLON-ALIGNED WIDGET-ID 258
      filTotalVarience AT ROW 3.58 COL 125.86 COLON-ALIGNED WIDGET-ID 282
      brw AT ROW 4.5 COL 1.43 WIDGET-ID 200
-     "To:" VIEW-AS TEXT
-          SIZE 3.14 BY .62 AT ROW 3.42 COL 5.57 WIDGET-ID 274
      "From:" VIEW-AS TEXT
           SIZE 5 BY .62 AT ROW 2.5 COL 3.43 WIDGET-ID 254
+     "To:" VIEW-AS TEXT
+          SIZE 3.14 BY .62 AT ROW 3.42 COL 5.57 WIDGET-ID 274
      RECT-1 AT ROW 1.23 COL 1.57 WIDGET-ID 260
      RECT-4 AT ROW 1.23 COL 49.57 WIDGET-ID 276
     WITH 1 DOWN NO-BOX KEEP-TAB-ORDER OVERLAY 
@@ -447,7 +447,7 @@ DO:
     DO:
         DEFINE VARIABLE tempCount AS INTEGER     NO-UNDO.
     
-        OUTPUT TO VALUE("E:\ICS_Shaw\bin\print\Daily_Report.txt").
+        OUTPUT TO VALUE("E:\ICS\bin\print\Daily_Report.txt").
             
             CASE radTimePeriod:
                 WHEN "Custom" THEN
@@ -499,8 +499,8 @@ DO:
 
         OUTPUT CLOSE.
         
-        DOS SILENT START VALUE("E:\ICS_Shaw\bin\print\BillingReport.bat").
-        DOS SILENT START excel VALUE("E:\ICS_Shaw\bin\print\BillingReport.xlsx").
+        DOS SILENT START VALUE("E:\ICS\bin\print\BillingReport.bat").
+        DOS SILENT START excel VALUE("E:\ICS\bin\print\BillingReport.xlsx").
     END.
 
     btnPrint:LABEL = "Print".

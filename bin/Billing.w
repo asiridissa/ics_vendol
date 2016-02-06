@@ -1065,7 +1065,7 @@ DO:
         .
   ENABLE filGRRD filDiscountRateItem btnCancel btnSave cmbName filDamP filExpP filGRST filPieses WITH FRAME DEFAULT-FRAME . 
   calendr:ENABLED = FALSE.
-  DISABLE filVarience filBillNo filVarience 
+  DISABLE filBillNo 
       filDiscountRate cmbArea cmbCus cmbEmp cmbVeh
       brw btnAdd btnDel btnMod btnCancelBill btnSaveBill WITH FRAME DEFAULT-FRAME.
 
