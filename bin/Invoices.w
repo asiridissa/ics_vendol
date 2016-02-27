@@ -205,7 +205,7 @@ DEFINE VARIABLE filunitsPerCase AS INTEGER FORMAT ">,>>9":U INITIAL 0
      SIZE 6 BY .88
      BGCOLOR 15 FGCOLOR 1  NO-UNDO.
 
-DEFINE VARIABLE filunitWeightKG AS DECIMAL FORMAT ">>,>>9.999":U INITIAL 0 
+DEFINE VARIABLE filunitWeightKG AS DECIMAL FORMAT ">>9.999":U INITIAL 0 
      LABEL "P Weight (kg)" 
      VIEW-AS FILL-IN 
      SIZE 13 BY .88
@@ -901,7 +901,8 @@ DO:
                 unitWeightKG = filunitWeightKG .
                 discountIN   = fillDiscount.
                 stat         = YES.
-                 
+                 MESSAGE filunitWeightKG
+                     VIEW-AS ALERT-BOX INFO BUTTONS OK.
                 IF NOT ERROR-STATUS:ERROR THEN
                     MESSAGE "Record successfully Modified." VIEW-AS ALERT-BOX INFO BUTTONS OK.
             END.

@@ -374,7 +374,7 @@ DEFINE VARIABLE filLorriesP AS INTEGER FORMAT ">>>9":U INITIAL 0
      SIZE 9 BY .88
      BGCOLOR 7 FGCOLOR 11  NO-UNDO.
 
-DEFINE VARIABLE filPaid AS DECIMAL FORMAT ">,>>>,>>9.99":U INITIAL 0 
+DEFINE VARIABLE filPaid AS DECIMAL FORMAT "->,>>>,>>9.99":U INITIAL 0 
      LABEL "Cash" 
      VIEW-AS FILL-IN 
      SIZE 14 BY .88
@@ -1588,7 +1588,7 @@ DO:
     DEFINE VARIABLE tempP AS INTEGER     NO-UNDO.
     DEFINE VARIABLE tempPC AS INTEGER     NO-UNDO.
 
-    IF filPaid > filDiscountedTotal THEN
+    IF filDiscountedTotal > 0 AND filPaid > filDiscountedTotal THEN
     DO:
         MESSAGE "Invalid Cash payment." VIEW-AS ALERT-BOX WARNING BUTTONS OK TITLE "Inventry Control Syatem".
         RETURN.
@@ -2309,11 +2309,6 @@ END.
 ON LEAVE OF filPaid IN FRAME DEFAULT-FRAME /* Cash */
 DO:
     ASSIGN {&SELF-NAME}.
-    IF {&SELF-NAME} > filDiscountedTotal THEN
-    DO:
-        MESSAGE "Paid amount is over Total." VIEW-AS ALERT-BOX INFO BUTTONS OK.
-        RETURN.
-    END.
 END.
 
 /* _UIB-CODE-BLOCK-END */
